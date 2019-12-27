@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/AllenChikman/brain-computer-interface.svg?branch=master)](https://travis-ci.org/AllenChikman/brain-computer-interface)
+[![codecov](https://codecov.io/gh/AllenChikman/brain-computer-interface/branch/master/graph/badge.svg)](https://codecov.io/gh/AllenChikman/brain-computer-interface)
 [![Documentation Status](https://readthedocs.org/projects/allen-brain-computer-interface/badge/?version=latest)](https://allen-brain-computer-interface.readthedocs.io/en/latest/?badge=latest)
 
 # brain-computer-interface

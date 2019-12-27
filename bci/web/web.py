@@ -1,10 +1,11 @@
 from pathlib import Path
-from website import Website
 import datetime as dt
 import os
+from flask import Flask
+
 
 data_path = ""
-website = Website()
+website = Flask(__name__)
 
 
 def get_relevant_timestamp_format(timestamp):
@@ -12,7 +13,7 @@ def get_relevant_timestamp_format(timestamp):
     return dt.datetime.strptime(temp_str, '%Y-%m-%d_%H-%M-%S')
 
 
-@website.route('/users/([0-9]+)')
+@website.route('/users/<int:user_id>')
 def user(user_id):
     _USER_HTML = '''
     <html>
@@ -37,7 +38,7 @@ def user(user_id):
     users_thoughts_lines = []
 
     if not os.path.exists(cur_path):
-        return 404, ''
+        return
 
     for file_dir in Path(cur_path).iterdir():
         file_name = get_relevant_timestamp_format(file_dir.name)
@@ -45,7 +46,7 @@ def user(user_id):
         users_thoughts_lines.append(_THOUGHT_LINE_HTML.format(file_name=file_name, thought=thought))
     user_html = _USER_HTML.format(user_id=user_id, user_thoughts='\n'.join(users_thoughts_lines))
 
-    return 200, user_html
+    return user_html
 
 
 @website.route('/')
@@ -71,13 +72,13 @@ def index():
     for user_dir in Path(data_path).iterdir():
         users_html.append(_USER_LINE_HTML.format(user_id=user_dir.name))
     index_html = _INDEX_HTML.format(users='\n'.join(users_html))
-    return 200, index_html
+    return index_html
 
 
 def run_webserver(address, data_dir):
     global data_path
     data_path = data_dir
-    website.run(address)
+    website.run(*address)
 
 
 def main(argv):

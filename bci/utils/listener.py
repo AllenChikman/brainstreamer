@@ -1,4 +1,4 @@
-from connection import Connection
+from .connection import Connection
 import socket
 
 
@@ -33,4 +33,4 @@ class Listener:
         return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        self.server.close()
+        self.stop()

@@ -1,11 +1,9 @@
 import os
 import threading
-import socket
 import time
 import struct
-from cli import CommandLineInterface
-
-cli = CommandLineInterface()
+import click
+from .utils.listener import Listener
 
 
 def create_dir(directory):
@@ -19,17 +17,6 @@ def append_to_file(path, text):
     f.close()
 
 
-def _receive_all(connection, size):
-    chunks = []
-    while size > 0:
-        chunk = connection.recv(size)
-        if not chunk:
-            raise RuntimeError('incomplete data')
-        chunks.append(chunk)
-        size -= len(chunk)
-    return b''.join(chunks)
-
-
 class Handler(threading.Thread):
     lock = threading.Lock()
 
@@ -40,13 +27,13 @@ class Handler(threading.Thread):
 
     def run(self):  # start invokes run
 
-        chunk = _receive_all(self.client, 20)
+        chunk = self.client.receive(20)
         res = struct.unpack('QQi', chunk)
 
         thought_len = int(res[2])
         str_pack_format = str(thought_len) + 's'
 
-        chunk = _receive_all(self.client, thought_len)
+        chunk = self.client.receive(thought_len)
         thought = struct.unpack(str_pack_format, chunk)
 
         formatted_date = time.strftime('%Y-%m-%d_%H-%M-%S', time.localtime(res[1]))
@@ -62,20 +49,13 @@ class Handler(threading.Thread):
         self.lock.release()
 
 
-@cli.command
-def run(address, data):
-    formatted_address = address.split(":")[0], int(address.split(":")[1])
-    server = socket.socket()
-    server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    server.bind(formatted_address)
-
-    while True:
-        server.listen(1000)
-        client, formatted_address = server.accept()
-
-        handler = Handler(client, data)
-        handler.start()
+def run_server(address, data):
+    host, port = address
+    listener = Listener(port, host)
+    with listener:
+        while True:
+            client = listener.accept()
+            handler = Handler(client, data)
+            handler.start()
 
 
-if __name__ == '__main__':
-    cli.main()

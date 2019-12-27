@@ -30,7 +30,7 @@ class Connection:
         return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        self.sock.close()
+        self.close()
 
     @classmethod
     def connect(cls, host, port):

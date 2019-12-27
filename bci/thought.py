@@ -3,7 +3,7 @@ from datetime import datetime
 
 
 class Thought:
-
+    """Represents a thought of a user"""
     def __init__(self, user_id, timestamp, thought):
         self.user_id = user_id
         self.timestamp = timestamp

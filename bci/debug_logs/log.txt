@@ -1,0 +1,12 @@
+04/09/2020 02:58:05 - bci.client - DEBUG - ('127.0.0.1', 8000)
+04/09/2020 02:58:05 - bci.client - DEBUG - running client
+04/09/2020 02:58:05 - bci.readers.reader - DEBUG - Reader initialized
+04/09/2020 02:58:05 - bci.client - DEBUG - initialized reader
+04/09/2020 02:58:05 - bci.readers.reader - DEBUG - getting user
+04/09/2020 02:58:05 - bci.readers.r04/09/2020 02:58:05 - bci.server - DEBUG - server got snapshot from user: Dan Gittik
+04/09/2020 02:58:05 - werkzeug - INFO - 127.0.0.1 - - [09/Apr/2020 02:58:05] "POST /snapshot HTTP/1.1" 200 -
+ci.client - DEBUG - read snapshot successfully
+04/09/2020 02:58:05 - bci.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+04/09/2020 02:58:05 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8000
+04/09/2020 02:58:05 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8000 "POST /snapshot HTTP/1.1" 200 0
+04/09/2020 02:58:05 - root - DEBUG - client posted snapshot successfully

@@ -1,0 +1,4 @@
+UINT = 4
+ULONG = 8
+FLOAT = 4
+DOUBLE = 8

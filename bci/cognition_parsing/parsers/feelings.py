@@ -8,7 +8,7 @@ def parse_feelings(snapshot):
         thirst=snapshot["feelings_thirst"],
         exhaustion=snapshot["feelings_exhaustion"],
         happiness=snapshot["feelings_happiness"],
-        timestamp=snapshot["timestamp"])
+        timestamp=snapshot["datetime"])
     return json.dumps(feelings)
 
 

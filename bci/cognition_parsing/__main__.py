@@ -1,7 +1,8 @@
 import click
 from . import parse as parse_data
 from . import run_parser as register_parser
-from .parsers import run_all_parsers
+from .parsing_manager import run_all_parsers
+
 
 
 @click.group()
@@ -31,4 +32,4 @@ def run_parsers():
 
 
 if __name__ == '__main__':
-    cli(prog_name='parsers')
+    cli(prog_name='cognition_parsing')

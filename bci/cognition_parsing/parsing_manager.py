@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 from threading import Thread
 
-from mindreader.drivers import MessageQueue
+from bci.message_queue import MqWrapper
 
 
 available_parsers = {}
@@ -15,7 +15,7 @@ def parse(parser_name, raw_data):
 
 
 def run_parser(parser_name, mq_url):
-    mq = MessageQueue(mq_url)
+    mq = MqWrapper(mq_url)
 
     def handler(snapshot):
         result = parse(parser_name, snapshot)
@@ -46,10 +46,10 @@ def get_available_parsers():
 
 
 def load_parsers():
-    root = Path("mindreader/parsers").absolute()
+    root = Path("bci/cognition_parsing/parsers").absolute()
     sys.path.insert(0, str(root.parent))
     for file in root.iterdir():
-        if file.name.startswith('_') or file.name == 'parsers.py' or not file.suffix == '.py':
+        if file.name.startswith('_') or file.name == 'cognition_parsing.py' or not file.suffix == '.py':
             continue
         module = importlib.import_module(f'{root.name}.{file.stem}', package=root.name)
         for key, func in module.__dict__.items():

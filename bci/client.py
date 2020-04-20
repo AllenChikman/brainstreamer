@@ -1,7 +1,8 @@
-from .readers.reader import Reader
-from . import cognition_protocol as cp
-import logging
 import requests
+
+from bci.protocols.cogintion_pb_protocol.reader import Reader
+from bci.protocols.cogintion_pb_protocol import cognition_pb_protocol as cp
+import logging
 
 
 def run(address, sample_path):
@@ -17,7 +18,6 @@ def run(address, sample_path):
 
     snapshot = reader.get_snapshot()
     logger.debug("read snapshot successfully")
-
     host, port = address
     url = f'http://{host}:{port}/snapshot'
 
@@ -28,3 +28,8 @@ def run(address, sample_path):
         logging.debug("client posted snapshot successfully")
     else:
         logging.error("client failed to post snapshot to server")
+
+
+
+
+

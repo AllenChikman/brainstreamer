@@ -1,7 +1,7 @@
 import gzip
 import struct
 import logging
-from .cortex_pb2 import User, Snapshot
+from bci.protocols.cogintion_pb_protocol.data.cortex_pb2 import User, Snapshot
 
 UINT_SIZE = 4
 

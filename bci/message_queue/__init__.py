@@ -1,1 +1,1 @@
-from .message_queue import MessageQueue
+from .mq_wrapper import MqWrapper

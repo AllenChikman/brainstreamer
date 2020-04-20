@@ -1,7 +1,6 @@
 import pymongo
 from bson.json_util import dumps
 
-
 DB = "db"
 USERS_COL = "users"
 SNAPSHOT_COL = "snapshots"

@@ -15,7 +15,7 @@ def run_client(address, sample_path):
     ip, port = address.split(":")
     formatted_address = (ip, int(port))
     try:
-        client.run(formatted_address , sample_path)
+        client.run(formatted_address, sample_path)
     except Exception as error:
         print(f'ERROR: {error}')
     pass
@@ -37,4 +37,4 @@ if __name__ == '__main__':
     log_format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     logging.basicConfig(filename='./bci/debug_logs/log.txt', level=logging.DEBUG, format=log_format,
                         datefmt='%m/%d/%Y %H:%M:%S', filemode='w')
-    cli(prog_name='mindreader')
+    cli(prog_name='bci')

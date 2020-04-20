@@ -1,6 +1,6 @@
 import struct
 import io
-from .readers.cortex_pb2 import User, Snapshot
+from bci.protocols.cogintion_pb_protocol.data.cortex_pb2 import User, Snapshot
 
 """
 protocol will include passing data of the user and single snapshot of his in the following manner:

@@ -1,6 +1,6 @@
 #!/bin/bash
-python -m bci.server run-server &
-python -m bci.parsers run-parsers &
-python -m bci.saver run-saver &
+python -m brainstreamer.server run-server &
+python -m brainstreamer.parsers run-parsers &
+python -m brainstreamer.saver run-saver &
 
 

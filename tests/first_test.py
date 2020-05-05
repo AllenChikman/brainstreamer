@@ -1,4 +1,4 @@
-from bci import Thought
+from brainstreamer import Thought
 
 
 def test_thought():

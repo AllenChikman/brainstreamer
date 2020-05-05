@@ -1,5 +1,5 @@
 import click
-from mindreader.api.api import run_api_server
+from bci.api.api import run_api_server
 
 
 @click.group()

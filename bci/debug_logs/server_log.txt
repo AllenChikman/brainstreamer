@@ -1,0 +1,641 @@
+05/03/2020 20:25:32 - bci.server.server - DEBUG - running server
+05/03/2020 20:25:53 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:25:53 - bci.server.server - DEBUG - saving images
+05/03/2020 20:25:53 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/5d4145c3-a899-4934-a725-48bf318623d8
+05/03/2020 20:25:53 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/5d4145c3-a899-4934-a725-48bf318623d8
+05/03/2020 20:25:53 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:25:54 - bci.server.server - DEBUG - saving images
+05/03/2020 20:25:54 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/dd7c25bc-4947-4b05-838d-3c18b1c6ee28
+05/03/2020 20:25:54 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/dd7c25bc-4947-4b05-838d-3c18b1c6ee28
+05/03/2020 20:25:54 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:25:54 - bci.server.server - DEBUG - saving images
+05/03/2020 20:25:54 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/8687e3e9-91d9-4530-bf5f-3864bce2a951
+05/03/2020 20:25:54 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/8687e3e9-91d9-4530-bf5f-3864bce2a951
+05/03/2020 20:25:55 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:25:55 - bci.server.server - DEBUG - saving images
+05/03/2020 20:25:55 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c01dfeca-b9a0-4e1f-bc86-d46fdffd617c
+05/03/2020 20:25:55 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c01dfeca-b9a0-4e1f-bc86-d46fdffd617c
+05/03/2020 20:25:55 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:25:55 - bci.server.server - DEBUG - saving images
+05/03/2020 20:25:55 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/6e569e18-5f1a-43c7-84ce-c5503a9f82ee
+05/03/2020 20:25:55 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/6e569e18-5f1a-43c7-84ce-c5503a9f82ee
+05/03/2020 20:25:56 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:25:56 - bci.server.server - DEBUG - saving images
+05/03/2020 20:25:56 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ff9d8d22-2b90-47e7-b165-a965ccc45252
+05/03/2020 20:25:56 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ff9d8d22-2b90-47e7-b165-a965ccc45252
+05/03/2020 20:25:56 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:25:57 - bci.server.server - DEBUG - saving images
+05/03/2020 20:25:57 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/0204821c-ebe4-407e-a854-d34de09eb52d
+05/03/2020 20:25:57 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/0204821c-ebe4-407e-a854-d34de09eb52d
+05/03/2020 20:25:57 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:25:57 - bci.server.server - DEBUG - saving images
+05/03/2020 20:25:57 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/8f9b0094-60e6-4dc5-8d2b-6b2b4bc447d0
+05/03/2020 20:25:57 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/8f9b0094-60e6-4dc5-8d2b-6b2b4bc447d0
+05/03/2020 20:25:58 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:25:58 - bci.server.server - DEBUG - saving images
+05/03/2020 20:25:58 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/330080bc-20f7-49e4-a5ee-f293d0cc8079
+05/03/2020 20:25:58 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/330080bc-20f7-49e4-a5ee-f293d0cc8079
+05/03/2020 20:25:58 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:25:58 - bci.server.server - DEBUG - saving images
+05/03/2020 20:25:58 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/cf6eab37-f5f7-44bf-814d-c068adfbe6d1
+05/03/2020 20:25:58 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/cf6eab37-f5f7-44bf-814d-c068adfbe6d1
+05/03/2020 20:34:09 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:34:09 - bci.server.server - DEBUG - saving images
+05/03/2020 20:34:09 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c6d0b7f9-3940-406f-8825-1bcbdbdfc223
+05/03/2020 20:34:09 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c6d0b7f9-3940-406f-8825-1bcbdbdfc223
+05/03/2020 20:34:10 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:34:10 - bci.server.server - DEBUG - saving images
+05/03/2020 20:34:10 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/613f75e4-ec9a-421b-b4ec-7625b7087dae
+05/03/2020 20:34:10 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/613f75e4-ec9a-421b-b4ec-7625b7087dae
+05/03/2020 20:34:11 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:34:11 - bci.server.server - DEBUG - saving images
+05/03/2020 20:34:11 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/875e2379-d4a9-421c-8c46-4d36134b40b4
+05/03/2020 20:34:11 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/875e2379-d4a9-421c-8c46-4d36134b40b4
+05/03/2020 20:34:12 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:34:12 - bci.server.server - DEBUG - saving images
+05/03/2020 20:34:12 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/f071a33a-c672-4100-8805-74cd55994682
+05/03/2020 20:34:12 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/f071a33a-c672-4100-8805-74cd55994682
+05/03/2020 20:34:12 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:34:13 - bci.server.server - DEBUG - saving images
+05/03/2020 20:34:13 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/347154b4-a789-432c-b5f0-9185a6dc466a
+05/03/2020 20:34:13 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/347154b4-a789-432c-b5f0-9185a6dc466a
+05/03/2020 20:34:13 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:34:13 - bci.server.server - DEBUG - saving images
+05/03/2020 20:34:13 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/50f5c6a2-c813-4ec6-94d4-6a8203edf12b
+05/03/2020 20:34:13 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/50f5c6a2-c813-4ec6-94d4-6a8203edf12b
+05/03/2020 20:34:14 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:34:14 - bci.server.server - DEBUG - saving images
+05/03/2020 20:34:14 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c5b2b7b5-fee7-4431-92f0-cd0a9bf99346
+05/03/2020 20:34:14 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c5b2b7b5-fee7-4431-92f0-cd0a9bf99346
+05/03/2020 20:34:15 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:34:15 - bci.server.server - DEBUG - saving images
+05/03/2020 20:34:15 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/21ec78f7-76d1-4e7a-96b3-6daed1a5d31d
+05/03/2020 20:34:15 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/21ec78f7-76d1-4e7a-96b3-6daed1a5d31d
+05/03/2020 20:34:15 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:34:16 - bci.server.server - DEBUG - saving images
+05/03/2020 20:34:16 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ecf0a03a-2cf7-47c2-aa6a-540cb84ccbe1
+05/03/2020 20:34:16 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ecf0a03a-2cf7-47c2-aa6a-540cb84ccbe1
+05/03/2020 20:34:16 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:34:16 - bci.server.server - DEBUG - saving images
+05/03/2020 20:34:16 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9cfcb8a2-8a0b-4863-9c75-6b0165fa649b
+05/03/2020 20:34:16 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9cfcb8a2-8a0b-4863-9c75-6b0165fa649b
+05/03/2020 20:41:08 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:41:08 - bci.server.server - DEBUG - saving images
+05/03/2020 20:41:08 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/df739964-4c0a-43f9-8b77-32887507f26e
+05/03/2020 20:41:08 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/df739964-4c0a-43f9-8b77-32887507f26e
+05/03/2020 20:41:08 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:41:08 - bci.server.server - DEBUG - saving images
+05/03/2020 20:41:08 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/0cce26a8-6dcb-4fa8-b635-e5567a86e9e5
+05/03/2020 20:41:08 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/0cce26a8-6dcb-4fa8-b635-e5567a86e9e5
+05/03/2020 20:41:09 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:41:09 - bci.server.server - DEBUG - saving images
+05/03/2020 20:41:09 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c867a48a-6885-496a-baf7-407e9dd26c14
+05/03/2020 20:41:09 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c867a48a-6885-496a-baf7-407e9dd26c14
+05/03/2020 20:41:10 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:41:10 - bci.server.server - DEBUG - saving images
+05/03/2020 20:41:10 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/6e3c414d-d37f-494a-a976-6ee3f7cb8d66
+05/03/2020 20:41:10 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/6e3c414d-d37f-494a-a976-6ee3f7cb8d66
+05/03/2020 20:41:10 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:41:10 - bci.server.server - DEBUG - saving images
+05/03/2020 20:41:10 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/11a67fc7-9379-451a-aa5e-85c111b9a04e
+05/03/2020 20:41:10 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/11a67fc7-9379-451a-aa5e-85c111b9a04e
+05/03/2020 20:41:11 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:41:11 - bci.server.server - DEBUG - saving images
+05/03/2020 20:41:11 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/977b929f-cbad-4ef9-a91e-7e03228ed08e
+05/03/2020 20:41:11 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/977b929f-cbad-4ef9-a91e-7e03228ed08e
+05/03/2020 20:41:11 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:41:12 - bci.server.server - DEBUG - saving images
+05/03/2020 20:41:12 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/21e09a5b-2177-4708-b7a1-9a3891b951fa
+05/03/2020 20:41:12 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/21e09a5b-2177-4708-b7a1-9a3891b951fa
+05/03/2020 20:41:12 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:41:12 - bci.server.server - DEBUG - saving images
+05/03/2020 20:41:12 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a161d7e9-6432-4d68-85aa-75ee7ce03657
+05/03/2020 20:41:12 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a161d7e9-6432-4d68-85aa-75ee7ce03657
+05/03/2020 20:41:13 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:41:13 - bci.server.server - DEBUG - saving images
+05/03/2020 20:41:13 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/13f10f9b-3b33-4ad4-bafb-73dc3dd1281e
+05/03/2020 20:41:13 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/13f10f9b-3b33-4ad4-bafb-73dc3dd1281e
+05/03/2020 20:41:13 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:41:14 - bci.server.server - DEBUG - saving images
+05/03/2020 20:41:14 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/dab61ff9-dd7d-418c-99cb-cbfe053ce387
+05/03/2020 20:41:14 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/dab61ff9-dd7d-418c-99cb-cbfe053ce387
+05/03/2020 20:42:44 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:44 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:44 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/b50528d1-6361-4b18-8421-ceb2366bdef9
+05/03/2020 20:42:44 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/b50528d1-6361-4b18-8421-ceb2366bdef9
+05/03/2020 20:42:45 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:45 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:45 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ede3b3b0-72e7-4dc6-a7cf-281723272c18
+05/03/2020 20:42:45 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ede3b3b0-72e7-4dc6-a7cf-281723272c18
+05/03/2020 20:42:46 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:46 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:46 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/b88f9306-a3f4-4cbd-9b73-fbadad09038d
+05/03/2020 20:42:46 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/b88f9306-a3f4-4cbd-9b73-fbadad09038d
+05/03/2020 20:42:47 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:47 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:47 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/99e6a0d3-364d-4c48-9b9e-709e47af92dd
+05/03/2020 20:42:47 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/99e6a0d3-364d-4c48-9b9e-709e47af92dd
+05/03/2020 20:42:47 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:47 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:47 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/66ccf85b-db1a-4105-bab7-5bb58b9ebb2d
+05/03/2020 20:42:48 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/66ccf85b-db1a-4105-bab7-5bb58b9ebb2d
+05/03/2020 20:42:48 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:48 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:48 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/d3d7fce4-c0f5-4752-a1d8-f787fa2a60d4
+05/03/2020 20:42:48 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/d3d7fce4-c0f5-4752-a1d8-f787fa2a60d4
+05/03/2020 20:42:49 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:49 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:49 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c34daea6-8087-44fa-a9e3-8ce739dffe73
+05/03/2020 20:42:49 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c34daea6-8087-44fa-a9e3-8ce739dffe73
+05/03/2020 20:42:50 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:50 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:50 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/114b959e-ae56-4277-80ef-a3820f6ae10f
+05/03/2020 20:42:50 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/114b959e-ae56-4277-80ef-a3820f6ae10f
+05/03/2020 20:42:50 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:50 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:50 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a45dc8f7-e3b5-4d1b-9a46-826569ad656b
+05/03/2020 20:42:50 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a45dc8f7-e3b5-4d1b-9a46-826569ad656b
+05/03/2020 20:42:51 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:51 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:51 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/98811f70-679c-477a-897c-6bb9a2bb8ddb
+05/03/2020 20:42:51 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/98811f70-679c-477a-897c-6bb9a2bb8ddb
+05/03/2020 20:42:51 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:52 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:52 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ddb33c24-8032-46a0-949c-f4a2ccf732cc
+05/03/2020 20:42:52 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ddb33c24-8032-46a0-949c-f4a2ccf732cc
+05/03/2020 20:42:52 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:53 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:53 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9e3d5eb7-eb35-46c0-b6fc-e575e0d47af3
+05/03/2020 20:42:53 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9e3d5eb7-eb35-46c0-b6fc-e575e0d47af3
+05/03/2020 20:42:53 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:53 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:53 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/198accbd-fefa-4a25-9651-93faf3568cc0
+05/03/2020 20:42:54 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/198accbd-fefa-4a25-9651-93faf3568cc0
+05/03/2020 20:42:54 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:54 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:54 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/e8e488f8-eb7f-4f9f-9775-b61744dc94bf
+05/03/2020 20:42:54 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/e8e488f8-eb7f-4f9f-9775-b61744dc94bf
+05/03/2020 20:42:55 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:55 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:55 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/32f36485-3df3-4afd-b23a-781fee993d7d
+05/03/2020 20:42:55 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/32f36485-3df3-4afd-b23a-781fee993d7d
+05/03/2020 20:42:55 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:56 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:56 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/86a2730e-7f51-4929-8aa3-4d76c0f90ffb
+05/03/2020 20:42:56 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/86a2730e-7f51-4929-8aa3-4d76c0f90ffb
+05/03/2020 20:42:56 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:56 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:56 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/e365fac0-5e40-46e9-9e87-4dad5b64d3f4
+05/03/2020 20:42:56 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/e365fac0-5e40-46e9-9e87-4dad5b64d3f4
+05/03/2020 20:42:57 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:57 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:57 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/1110486e-6057-4fc2-a108-aa21f74a39c8
+05/03/2020 20:42:57 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/1110486e-6057-4fc2-a108-aa21f74a39c8
+05/03/2020 20:42:57 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:58 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:58 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/933eb3fd-21c4-46a6-b9e9-ba1ef0e743d5
+05/03/2020 20:42:58 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/933eb3fd-21c4-46a6-b9e9-ba1ef0e743d5
+05/03/2020 20:42:58 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:58 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:58 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/984606d5-2cc0-4dc6-bdfe-9b8c4119d05b
+05/03/2020 20:42:58 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/984606d5-2cc0-4dc6-bdfe-9b8c4119d05b
+05/03/2020 20:42:59 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:59 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:59 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/8bbee844-f107-407e-a11f-b42bc62820ab
+05/03/2020 20:42:59 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/8bbee844-f107-407e-a11f-b42bc62820ab
+05/03/2020 20:42:59 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:42:59 - bci.server.server - DEBUG - saving images
+05/03/2020 20:42:59 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4745899f-659d-4677-b975-0c2baaff32d5
+05/03/2020 20:42:59 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4745899f-659d-4677-b975-0c2baaff32d5
+05/03/2020 20:43:00 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:00 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:00 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/89d666c4-005e-4f81-a74d-951f047d910e
+05/03/2020 20:43:00 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/89d666c4-005e-4f81-a74d-951f047d910e
+05/03/2020 20:43:01 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:01 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:01 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/48de5d61-4402-4ec2-b0f7-93b090e66b39
+05/03/2020 20:43:01 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/48de5d61-4402-4ec2-b0f7-93b090e66b39
+05/03/2020 20:43:01 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:02 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:02 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/1732ce6f-1933-4044-8d54-c14cdcf1f3c7
+05/03/2020 20:43:02 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/1732ce6f-1933-4044-8d54-c14cdcf1f3c7
+05/03/2020 20:43:02 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:02 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:02 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9c45d6cc-a431-4aa0-ae70-2b5af2457c42
+05/03/2020 20:43:02 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9c45d6cc-a431-4aa0-ae70-2b5af2457c42
+05/03/2020 20:43:03 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:03 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:03 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/d686faae-de71-47dc-acaa-b8bd0665c3fd
+05/03/2020 20:43:03 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/d686faae-de71-47dc-acaa-b8bd0665c3fd
+05/03/2020 20:43:03 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:03 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:03 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/fb08582f-4b92-40eb-bc38-f3b1ea9601e4
+05/03/2020 20:43:03 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/fb08582f-4b92-40eb-bc38-f3b1ea9601e4
+05/03/2020 20:43:04 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:04 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:04 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/5f21df3f-73aa-4015-9731-511c0766bbd6
+05/03/2020 20:43:04 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/5f21df3f-73aa-4015-9731-511c0766bbd6
+05/03/2020 20:43:05 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:05 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:05 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/6ff04de6-e893-4a38-9b4f-fe32e3cc6a62
+05/03/2020 20:43:05 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/6ff04de6-e893-4a38-9b4f-fe32e3cc6a62
+05/03/2020 20:43:05 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:06 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:06 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/37856e6e-f9a0-4a15-85f9-9dada66aa131
+05/03/2020 20:43:06 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/37856e6e-f9a0-4a15-85f9-9dada66aa131
+05/03/2020 20:43:06 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:06 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:06 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ce1ccba9-d072-4589-b17c-16ddbd414e05
+05/03/2020 20:43:06 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ce1ccba9-d072-4589-b17c-16ddbd414e05
+05/03/2020 20:43:07 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:07 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:07 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/b1395783-08e1-4d6e-819d-10f729e5174c
+05/03/2020 20:43:07 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/b1395783-08e1-4d6e-819d-10f729e5174c
+05/03/2020 20:43:07 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:08 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:08 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/3bc4b522-4543-4de0-8653-050453b67678
+05/03/2020 20:43:08 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/3bc4b522-4543-4de0-8653-050453b67678
+05/03/2020 20:43:08 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:08 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:08 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/e7c1e955-566b-48a4-acf5-bf37c72efdf3
+05/03/2020 20:43:08 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/e7c1e955-566b-48a4-acf5-bf37c72efdf3
+05/03/2020 20:43:09 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:09 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:09 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/7ffe5cbf-4e9d-4038-b01a-10a586a93f8f
+05/03/2020 20:43:09 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/7ffe5cbf-4e9d-4038-b01a-10a586a93f8f
+05/03/2020 20:43:09 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:10 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:10 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/43a14ef0-551d-4df3-a67c-7842e545fa05
+05/03/2020 20:43:10 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/43a14ef0-551d-4df3-a67c-7842e545fa05
+05/03/2020 20:43:10 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:10 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:10 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/de71a7de-f6af-4507-b8b3-97e0f709256b
+05/03/2020 20:43:10 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/de71a7de-f6af-4507-b8b3-97e0f709256b
+05/03/2020 20:43:11 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:11 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:11 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9726d411-3059-45b0-876b-d9ca4dab7a06
+05/03/2020 20:43:11 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9726d411-3059-45b0-876b-d9ca4dab7a06
+05/03/2020 20:43:11 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:12 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:12 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c65b430a-513e-4334-acfb-3520d537a11a
+05/03/2020 20:43:12 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c65b430a-513e-4334-acfb-3520d537a11a
+05/03/2020 20:43:12 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:12 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:12 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/62c3a8fd-4f51-4648-aed8-3492064d0d6e
+05/03/2020 20:43:12 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/62c3a8fd-4f51-4648-aed8-3492064d0d6e
+05/03/2020 20:43:13 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:13 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:13 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a3ba6bf7-b30d-4507-8276-71452ae777b0
+05/03/2020 20:43:13 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a3ba6bf7-b30d-4507-8276-71452ae777b0
+05/03/2020 20:43:13 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:14 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:14 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/bbbbf491-138e-4dc8-bcc8-1cc511c23fa8
+05/03/2020 20:43:14 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/bbbbf491-138e-4dc8-bcc8-1cc511c23fa8
+05/03/2020 20:43:14 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:14 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:14 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/46b171d2-f411-480a-a64b-9dec489f82ba
+05/03/2020 20:43:14 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/46b171d2-f411-480a-a64b-9dec489f82ba
+05/03/2020 20:43:15 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:15 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:15 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a62f9d02-f06a-4c92-a3bd-01d200252701
+05/03/2020 20:43:15 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a62f9d02-f06a-4c92-a3bd-01d200252701
+05/03/2020 20:43:15 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:16 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:16 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/97a7f43a-2807-402f-8281-23888d321120
+05/03/2020 20:43:16 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/97a7f43a-2807-402f-8281-23888d321120
+05/03/2020 20:43:16 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:16 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:16 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c5c1a67a-c962-4db2-8696-04d93a782ebf
+05/03/2020 20:43:16 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c5c1a67a-c962-4db2-8696-04d93a782ebf
+05/03/2020 20:43:17 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:17 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:17 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a53e6eb7-1573-44cb-b968-a46c3636d4b0
+05/03/2020 20:43:17 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a53e6eb7-1573-44cb-b968-a46c3636d4b0
+05/03/2020 20:43:17 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:18 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:18 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/6017a034-d190-4e54-8ae2-64724562d884
+05/03/2020 20:43:18 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/6017a034-d190-4e54-8ae2-64724562d884
+05/03/2020 20:43:18 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:18 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:18 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/1a025d8f-530a-4b1a-9108-0b16a3470a20
+05/03/2020 20:43:18 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/1a025d8f-530a-4b1a-9108-0b16a3470a20
+05/03/2020 20:43:19 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:19 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:19 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/2f60e85d-8914-4cdc-a277-6368225ce09e
+05/03/2020 20:43:19 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/2f60e85d-8914-4cdc-a277-6368225ce09e
+05/03/2020 20:43:19 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:20 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:20 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/8ed1b9d0-b6fe-42c2-9b21-7f32c7f1c31e
+05/03/2020 20:43:20 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/8ed1b9d0-b6fe-42c2-9b21-7f32c7f1c31e
+05/03/2020 20:43:20 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:20 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:20 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/b1ca4c75-296a-4151-b292-cf8a68e5763d
+05/03/2020 20:43:20 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/b1ca4c75-296a-4151-b292-cf8a68e5763d
+05/03/2020 20:43:21 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:21 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:21 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/660030a1-6f78-4e2e-a359-bdc5b6e99fe5
+05/03/2020 20:43:21 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/660030a1-6f78-4e2e-a359-bdc5b6e99fe5
+05/03/2020 20:43:21 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:22 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:22 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/5f9c5d19-9f7e-45a9-bf7a-94e2cafd5133
+05/03/2020 20:43:22 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/5f9c5d19-9f7e-45a9-bf7a-94e2cafd5133
+05/03/2020 20:43:22 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:22 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:22 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4c8101da-4ac2-4d9e-a6c2-6fbfabf6d3c2
+05/03/2020 20:43:22 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4c8101da-4ac2-4d9e-a6c2-6fbfabf6d3c2
+05/03/2020 20:43:23 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:23 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:23 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/574ab319-5bbb-4c1b-8ad5-aac7330ef9ff
+05/03/2020 20:43:23 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/574ab319-5bbb-4c1b-8ad5-aac7330ef9ff
+05/03/2020 20:43:23 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:24 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:24 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/11c51fc6-f00e-4bc3-9897-aa05a53c86bd
+05/03/2020 20:43:24 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/11c51fc6-f00e-4bc3-9897-aa05a53c86bd
+05/03/2020 20:43:24 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:24 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:24 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9c70e2ef-5af5-4c3d-bcb7-9c3da7fa3385
+05/03/2020 20:43:24 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9c70e2ef-5af5-4c3d-bcb7-9c3da7fa3385
+05/03/2020 20:43:25 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:25 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:25 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/3d67923f-6167-445f-9496-ac89d2197135
+05/03/2020 20:43:25 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/3d67923f-6167-445f-9496-ac89d2197135
+05/03/2020 20:43:25 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:26 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:26 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4045d3bc-210b-4431-aad9-258259534bdd
+05/03/2020 20:43:26 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4045d3bc-210b-4431-aad9-258259534bdd
+05/03/2020 20:43:26 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:26 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:26 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/8a52be0c-0953-4347-bafd-5f4ca254565b
+05/03/2020 20:43:26 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/8a52be0c-0953-4347-bafd-5f4ca254565b
+05/03/2020 20:43:27 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:27 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:27 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/79154380-cd72-4002-9346-fcb192d84ea1
+05/03/2020 20:43:27 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/79154380-cd72-4002-9346-fcb192d84ea1
+05/03/2020 20:43:27 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:28 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:28 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/00e157dc-cadc-42ae-915a-6e3372c12e7a
+05/03/2020 20:43:28 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/00e157dc-cadc-42ae-915a-6e3372c12e7a
+05/03/2020 20:43:28 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:28 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:28 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/05167add-ae5a-4545-8ddc-92348b082f4e
+05/03/2020 20:43:28 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/05167add-ae5a-4545-8ddc-92348b082f4e
+05/03/2020 20:43:29 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:29 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:29 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/8a6e73d9-123f-4e0f-801c-2511f725977f
+05/03/2020 20:43:29 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/8a6e73d9-123f-4e0f-801c-2511f725977f
+05/03/2020 20:43:29 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:30 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:30 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ad5308ad-aa8f-4409-ad78-42b5c62f7870
+05/03/2020 20:43:30 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ad5308ad-aa8f-4409-ad78-42b5c62f7870
+05/03/2020 20:43:30 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:30 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:30 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/cbfbf805-5c26-48e2-a409-9f281ad911e3
+05/03/2020 20:43:30 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/cbfbf805-5c26-48e2-a409-9f281ad911e3
+05/03/2020 20:43:31 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:31 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:31 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/62a601a0-6bfd-4f67-b28f-c236be5409e6
+05/03/2020 20:43:31 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/62a601a0-6bfd-4f67-b28f-c236be5409e6
+05/03/2020 20:43:31 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:31 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:31 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/339ba433-102b-45a7-8936-2884cca6f87c
+05/03/2020 20:43:31 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/339ba433-102b-45a7-8936-2884cca6f87c
+05/03/2020 20:43:32 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:32 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:32 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/e2dffade-3358-42ef-aa90-ad1213e71f06
+05/03/2020 20:43:32 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/e2dffade-3358-42ef-aa90-ad1213e71f06
+05/03/2020 20:43:32 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:32 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:32 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9da1a8b2-ea45-4a65-a8de-6b83b4564ea8
+05/03/2020 20:43:33 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9da1a8b2-ea45-4a65-a8de-6b83b4564ea8
+05/03/2020 20:43:33 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:33 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:33 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/2f25d4e4-bbfc-4ce7-8f35-dd9432b656f2
+05/03/2020 20:43:33 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/2f25d4e4-bbfc-4ce7-8f35-dd9432b656f2
+05/03/2020 20:43:34 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:34 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:34 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9b6e4645-2160-48e6-9db7-d4525542e4c2
+05/03/2020 20:43:34 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9b6e4645-2160-48e6-9db7-d4525542e4c2
+05/03/2020 20:43:34 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:34 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:34 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9324dfa8-ccb8-44b6-92f7-0b34fbf13395
+05/03/2020 20:43:34 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/9324dfa8-ccb8-44b6-92f7-0b34fbf13395
+05/03/2020 20:43:35 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:35 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:35 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/3c086ecf-c95d-4a46-a616-a692966700f1
+05/03/2020 20:43:35 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/3c086ecf-c95d-4a46-a616-a692966700f1
+05/03/2020 20:43:35 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:35 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:35 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/dfb87939-67c9-4d98-ac93-567b6dafcd72
+05/03/2020 20:43:35 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/dfb87939-67c9-4d98-ac93-567b6dafcd72
+05/03/2020 20:43:36 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:36 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:36 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/350532a9-9ebe-436f-96f6-423ec9826459
+05/03/2020 20:43:36 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/350532a9-9ebe-436f-96f6-423ec9826459
+05/03/2020 20:43:36 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:37 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:37 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a3feb77d-a148-41da-a55e-e6bd56239025
+05/03/2020 20:43:37 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a3feb77d-a148-41da-a55e-e6bd56239025
+05/03/2020 20:43:37 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:37 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:37 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/bccb6914-dd4f-4d09-8d01-3d1f1f675c24
+05/03/2020 20:43:37 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/bccb6914-dd4f-4d09-8d01-3d1f1f675c24
+05/03/2020 20:43:38 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:38 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:38 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/023c3d64-86f1-45ab-9000-69e0f131d029
+05/03/2020 20:43:38 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/023c3d64-86f1-45ab-9000-69e0f131d029
+05/03/2020 20:43:38 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:39 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:39 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/69b2da3a-5e35-420b-9ea8-117e490f2be9
+05/03/2020 20:43:39 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/69b2da3a-5e35-420b-9ea8-117e490f2be9
+05/03/2020 20:43:39 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:39 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:39 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a4623294-7b4b-4a1b-bd2d-2d84562bff1d
+05/03/2020 20:43:39 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a4623294-7b4b-4a1b-bd2d-2d84562bff1d
+05/03/2020 20:43:40 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:40 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:40 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/5f5a1234-2abe-451f-be3c-a5eff252d862
+05/03/2020 20:43:40 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/5f5a1234-2abe-451f-be3c-a5eff252d862
+05/03/2020 20:43:40 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:40 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:40 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/561ae88c-58eb-494c-827c-88baddb947f0
+05/03/2020 20:43:40 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/561ae88c-58eb-494c-827c-88baddb947f0
+05/03/2020 20:43:41 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:41 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:41 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/3405ad2e-3b84-42db-92ee-2f383e833677
+05/03/2020 20:43:41 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/3405ad2e-3b84-42db-92ee-2f383e833677
+05/03/2020 20:43:42 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:42 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:42 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c68775e5-9303-43b3-980f-a7a4326ee32e
+05/03/2020 20:43:42 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c68775e5-9303-43b3-980f-a7a4326ee32e
+05/03/2020 20:43:42 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:43 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:43 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/3effe9d8-f1de-4c0a-b8e3-d2c35157d81d
+05/03/2020 20:43:43 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/3effe9d8-f1de-4c0a-b8e3-d2c35157d81d
+05/03/2020 20:43:43 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:43 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:43 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/2c202eee-74da-4b34-aba0-4334d0b35f2e
+05/03/2020 20:43:43 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/2c202eee-74da-4b34-aba0-4334d0b35f2e
+05/03/2020 20:43:44 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:44 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:44 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/1f60f66b-6337-4a0f-8b4b-6bd2573985e1
+05/03/2020 20:43:44 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/1f60f66b-6337-4a0f-8b4b-6bd2573985e1
+05/03/2020 20:43:44 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:45 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:45 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/d0b30c23-d53f-47fc-ab99-7019fe719025
+05/03/2020 20:43:45 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/d0b30c23-d53f-47fc-ab99-7019fe719025
+05/03/2020 20:43:45 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:46 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:46 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/92c40cbd-b935-4bef-b0d0-58290fc69231
+05/03/2020 20:43:46 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/92c40cbd-b935-4bef-b0d0-58290fc69231
+05/03/2020 20:43:46 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:47 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:47 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4730a73e-4fcd-4549-a71d-bdab092849fd
+05/03/2020 20:43:47 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4730a73e-4fcd-4549-a71d-bdab092849fd
+05/03/2020 20:43:47 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:48 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:48 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ac9f3b16-19f6-438c-8860-be4e445a1101
+05/03/2020 20:43:48 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ac9f3b16-19f6-438c-8860-be4e445a1101
+05/03/2020 20:43:48 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:48 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:48 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4b30c2cd-02a3-43c2-b46a-1846d1be1014
+05/03/2020 20:43:48 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4b30c2cd-02a3-43c2-b46a-1846d1be1014
+05/03/2020 20:43:49 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:49 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:49 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/6f77c157-2b22-4590-ab28-94a472e00a55
+05/03/2020 20:43:49 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/6f77c157-2b22-4590-ab28-94a472e00a55
+05/03/2020 20:43:50 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:50 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:50 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c6e5f564-03b8-4b9c-aab6-e64be5a6f13a
+05/03/2020 20:43:50 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c6e5f564-03b8-4b9c-aab6-e64be5a6f13a
+05/03/2020 20:43:51 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:51 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:51 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/d5e21e7f-5046-4d16-b828-f50d1d28a853
+05/03/2020 20:43:51 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/d5e21e7f-5046-4d16-b828-f50d1d28a853
+05/03/2020 20:43:51 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:52 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:52 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4dc20fdb-5034-4fc7-b82a-6c9d94949d27
+05/03/2020 20:43:52 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4dc20fdb-5034-4fc7-b82a-6c9d94949d27
+05/03/2020 20:43:52 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:43:52 - bci.server.server - DEBUG - saving images
+05/03/2020 20:43:52 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/825fa539-908b-44f8-bd47-a8272de81e80
+05/03/2020 20:43:52 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/825fa539-908b-44f8-bd47-a8272de81e80
+05/03/2020 20:56:47 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:56:47 - bci.server.server - DEBUG - saving images
+05/03/2020 20:56:47 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/d69c3950-7344-456c-addb-b3d4866ba286
+05/03/2020 20:56:47 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/d69c3950-7344-456c-addb-b3d4866ba286
+05/03/2020 20:56:48 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:56:48 - bci.server.server - DEBUG - saving images
+05/03/2020 20:56:48 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/e6a30759-abd9-45aa-8a9b-14be16e9a09d
+05/03/2020 20:56:48 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/e6a30759-abd9-45aa-8a9b-14be16e9a09d
+05/03/2020 20:56:48 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:56:49 - bci.server.server - DEBUG - saving images
+05/03/2020 20:56:49 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/e54b5443-a8df-4f1e-a853-1f791451b87a
+05/03/2020 20:56:49 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/e54b5443-a8df-4f1e-a853-1f791451b87a
+05/03/2020 20:56:49 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:56:49 - bci.server.server - DEBUG - saving images
+05/03/2020 20:56:49 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/b2632652-9cd8-4356-b9fb-9b7315779076
+05/03/2020 20:56:49 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/b2632652-9cd8-4356-b9fb-9b7315779076
+05/03/2020 20:56:50 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 20:56:50 - bci.server.server - DEBUG - saving images
+05/03/2020 20:56:50 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/56682d29-facc-4c1a-a97d-f983d361d5a0
+05/03/2020 20:56:50 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/56682d29-facc-4c1a-a97d-f983d361d5a0
+05/03/2020 21:06:23 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:06:23 - bci.server.server - DEBUG - saving images
+05/03/2020 21:06:23 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/73bd9ba5-f758-499d-9cb2-f3c438d75bda
+05/03/2020 21:06:23 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/73bd9ba5-f758-499d-9cb2-f3c438d75bda
+05/03/2020 21:06:24 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:06:24 - bci.server.server - DEBUG - saving images
+05/03/2020 21:06:24 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/12cf7f1c-613f-4233-aadf-9622fbc4c4d3
+05/03/2020 21:06:24 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/12cf7f1c-613f-4233-aadf-9622fbc4c4d3
+05/03/2020 21:06:25 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:06:25 - bci.server.server - DEBUG - saving images
+05/03/2020 21:06:25 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/3e2c3058-e877-4c5a-a5f2-231236450af4
+05/03/2020 21:06:25 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/3e2c3058-e877-4c5a-a5f2-231236450af4
+05/03/2020 21:06:26 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:06:26 - bci.server.server - DEBUG - saving images
+05/03/2020 21:06:26 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/b26dc47d-db0d-418d-b68f-2bbca731df6d
+05/03/2020 21:06:26 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/b26dc47d-db0d-418d-b68f-2bbca731df6d
+05/03/2020 21:06:27 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:06:27 - bci.server.server - DEBUG - saving images
+05/03/2020 21:06:27 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/017bcd48-a3f4-405f-8a8e-ad6d739648cc
+05/03/2020 21:06:27 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/017bcd48-a3f4-405f-8a8e-ad6d739648cc
+05/03/2020 21:07:46 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:07:46 - bci.server.server - DEBUG - saving images
+05/03/2020 21:07:46 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c8b1e286-08ca-4ef4-ae8f-7a0fc43a11f0
+05/03/2020 21:07:46 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c8b1e286-08ca-4ef4-ae8f-7a0fc43a11f0
+05/03/2020 21:07:47 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:07:47 - bci.server.server - DEBUG - saving images
+05/03/2020 21:07:47 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/5c4d3696-29e7-4876-bb76-62e5ff3303d3
+05/03/2020 21:07:47 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/5c4d3696-29e7-4876-bb76-62e5ff3303d3
+05/03/2020 21:07:48 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:07:48 - bci.server.server - DEBUG - saving images
+05/03/2020 21:07:48 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ac3b2b4a-0f0a-4592-bbdc-ce8a29f444fe
+05/03/2020 21:07:48 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/ac3b2b4a-0f0a-4592-bbdc-ce8a29f444fe
+05/03/2020 21:07:48 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:07:48 - bci.server.server - DEBUG - saving images
+05/03/2020 21:07:48 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/698464e9-02be-4dbb-98df-51812b6cf3bd
+05/03/2020 21:07:48 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/698464e9-02be-4dbb-98df-51812b6cf3bd
+05/03/2020 21:07:49 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:07:49 - bci.server.server - DEBUG - saving images
+05/03/2020 21:07:49 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/58260290-6a73-4442-907a-b6853f68c00f
+05/03/2020 21:07:49 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/58260290-6a73-4442-907a-b6853f68c00f
+05/03/2020 21:09:37 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:09:37 - bci.server.server - DEBUG - saving images
+05/03/2020 21:09:37 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/71a59fd5-51ef-4927-9e4c-f3fbea4d3d85
+05/03/2020 21:09:37 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/71a59fd5-51ef-4927-9e4c-f3fbea4d3d85
+05/03/2020 21:09:38 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:09:38 - bci.server.server - DEBUG - saving images
+05/03/2020 21:09:38 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/3fbef06a-6219-45c9-9ca9-6e68cbacc5b8
+05/03/2020 21:09:38 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/3fbef06a-6219-45c9-9ca9-6e68cbacc5b8
+05/03/2020 21:09:38 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:09:39 - bci.server.server - DEBUG - saving images
+05/03/2020 21:09:39 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/756f22d2-8394-4dbe-8280-4170757c3bef
+05/03/2020 21:09:39 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/756f22d2-8394-4dbe-8280-4170757c3bef
+05/03/2020 21:09:39 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:09:39 - bci.server.server - DEBUG - saving images
+05/03/2020 21:09:39 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a66b2980-d48b-44a5-b144-82d0f6a9bd33
+05/03/2020 21:09:39 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/a66b2980-d48b-44a5-b144-82d0f6a9bd33
+05/03/2020 21:09:40 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:09:40 - bci.server.server - DEBUG - saving images
+05/03/2020 21:09:40 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c43cbdcb-0ad7-49a2-8767-b53ac27541ae
+05/03/2020 21:09:40 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/c43cbdcb-0ad7-49a2-8767-b53ac27541ae
+05/03/2020 21:15:16 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:15:16 - bci.server.server - DEBUG - saving images
+05/03/2020 21:15:16 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4654e1aa-2a2a-4a8d-a4e0-41776d9a3a03
+05/03/2020 21:15:16 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4654e1aa-2a2a-4a8d-a4e0-41776d9a3a03
+05/03/2020 21:15:16 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:15:17 - bci.server.server - DEBUG - saving images
+05/03/2020 21:15:17 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4020c43f-203f-4e0d-9f19-b2fcae420e86
+05/03/2020 21:15:17 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/4020c43f-203f-4e0d-9f19-b2fcae420e86
+05/03/2020 21:15:17 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:15:17 - bci.server.server - DEBUG - saving images
+05/03/2020 21:15:17 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/efdf9ece-fd03-4d77-b8f3-c1648e8d8ed1
+05/03/2020 21:15:17 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/efdf9ece-fd03-4d77-b8f3-c1648e8d8ed1
+05/03/2020 21:15:18 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:15:18 - bci.server.server - DEBUG - saving images
+05/03/2020 21:15:18 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/e4115fd0-f7a7-40b1-a94c-29d9ed2c3b84
+05/03/2020 21:15:18 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/e4115fd0-f7a7-40b1-a94c-29d9ed2c3b84
+05/03/2020 21:15:18 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:15:18 - bci.server.server - DEBUG - saving images
+05/03/2020 21:15:18 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/67221c55-8060-45b7-950c-d9730299d0dc
+05/03/2020 21:15:18 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/67221c55-8060-45b7-950c-d9730299d0dc
+05/03/2020 21:19:01 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:19:01 - bci.server.server - DEBUG - saving images
+05/03/2020 21:19:01 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/7415df22-c81b-449d-a355-ad08113e0b17
+05/03/2020 21:19:01 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/7415df22-c81b-449d-a355-ad08113e0b17
+05/03/2020 21:19:01 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:19:02 - bci.server.server - DEBUG - saving images
+05/03/2020 21:19:02 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/59ecd108-60ab-4b43-8153-1c6d4295960d
+05/03/2020 21:19:02 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/59ecd108-60ab-4b43-8153-1c6d4295960d
+05/03/2020 21:19:02 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:19:03 - bci.server.server - DEBUG - saving images
+05/03/2020 21:19:03 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/d2033ea3-d168-441a-9bff-059ca0b7f150
+05/03/2020 21:19:03 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/d2033ea3-d168-441a-9bff-059ca0b7f150
+05/03/2020 21:19:03 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:19:03 - bci.server.server - DEBUG - saving images
+05/03/2020 21:19:03 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/0374df80-f94a-4a40-b845-7a967151729d
+05/03/2020 21:19:03 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/0374df80-f94a-4a40-b845-7a967151729d
+05/03/2020 21:19:04 - bci.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/03/2020 21:19:04 - bci.server.server - DEBUG - saving images
+05/03/2020 21:19:04 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/79f89d17-a1e5-48b7-a89f-06a33fe6f2f7
+05/03/2020 21:19:04 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/79f89d17-a1e5-48b7-a89f-06a33fe6f2f7

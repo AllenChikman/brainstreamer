@@ -1,4 +1,5 @@
 import importlib
+import logging
 import sys
 from furl import furl
 from pathlib import Path
@@ -14,6 +15,7 @@ class Database:
         if prefix not in supported_dbs:
             raise NotImplementedError("Database type is not supported")
         self.db = supported_dbs[prefix](url.host, url.port)
+        self.logger = logging.getLogger(__name__)
 
     def __repr__(self):
         return self.db.__repr__()
@@ -36,9 +38,12 @@ class Database:
     def get_snapshot_by_id(self, user_id, snapshot_id):
         return self.db.get_snapshot_by_id(user_id, snapshot_id)
 
+    def log_collection(self):
+        return self.db.log_collection()
+
 
 def load_databases():
-    root = Path("mindreader/drivers/databases").absolute()
+    root = Path("bci/databases").absolute()
     sys.path.insert(0, str(root.parent))
     for file in root.iterdir():
         if file.name.startswith('_') or file.name == 'database.py' or not file.suffix == '.py':

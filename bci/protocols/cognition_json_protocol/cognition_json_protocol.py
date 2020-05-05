@@ -1,6 +1,6 @@
 import json
 
-data_dir = '/home/user/brain-computer-interface/bci/protocols/shared_data'
+data_dir = './bci/data/shared_data'
 
 
 def get_data_path():

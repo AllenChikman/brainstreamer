@@ -48,14 +48,15 @@ def get_arranged_dicts(user, snapshot):
     user_dict = _user_to_flat_dict(user)
 
     user_dict['gender'] = ['male', 'female', 'unknown'][user.gender]
-    user_dict['birthday'] = my_utils.milisecs_to_date(user.birthday, "%d/%m/%Y")
+    user_dict['birthday'] = my_utils.epoch_to_date(user.birthday, "%d/%m/%Y")
 
     # Snapshot Preparation
     snapshot_dict = _snapshot_to_flat_dict(snapshot)
 
     snapshot_dict['snapshot_id'] = snapshot_id = my_utils.get_unique_id()
+    snapshot_dict['user_id'] = user_id = user_dict["user_id"]
 
-    image_dir_path = f'{cjsp.get_data_path()}/{user.user_id}/{snapshot_id}'
+    image_dir_path = f'{cjsp.get_data_path()}/{user_id}/{snapshot_id}'
     snapshot_dict["color_image_path"] = f'{image_dir_path}/color_image.cjsp'
     snapshot_dict["depth_image_path"] = f'{image_dir_path}/depth_image.cjsp'
 

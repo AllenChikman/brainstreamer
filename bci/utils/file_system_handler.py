@@ -1,8 +1,12 @@
+import logging
 import os, os.path
 import errno
 
+logger = logging.getLogger(__name__)
+
 
 def _mkdir_p(path):
+    logger.debug(f"creating file: {path}")
     try:
         os.makedirs(path)
     except OSError as exc:  # Python >2.5
@@ -15,6 +19,7 @@ def _mkdir_p(path):
 def _safe_open(path, mode):
     ''' Open "path" for writing, creating any parent directories as needed.
     '''
+
     _mkdir_p(os.path.dirname(path))
     return open(path, mode)
 
@@ -31,3 +36,7 @@ class FileSystemHandler:
         mode = 'rb' if byte else 'r'
         with _safe_open(path, mode) as f:
             return f.read()
+
+    @staticmethod
+    def safe_create_dir(dir_path):
+        _mkdir_p(dir_path)

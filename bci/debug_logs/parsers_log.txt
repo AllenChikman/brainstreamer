@@ -1,0 +1,21 @@
+05/03/2020 21:18:47 - __main__ - DEBUG - parsing
+05/03/2020 21:19:01 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/7415df22-c81b-449d-a355-ad08113e0b17
+05/03/2020 21:19:01 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/7415df22-c81b-449d-a355-ad08113e0b17
+05/03/2020 21:19:01 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/public/snapshots_imgs/42/7415df22-c81b-449d-a355-ad08113e0b17
+05/03/2020 21:19:02 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/public/snapshots_imgs/42/7415df22-c81b-449d-a355-ad08113e0b17
+05/03/2020 21:19:02 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/59ecd108-60ab-4b43-8153-1c6d4295960d
+05/03/2020 21:19:02 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/public/snapshots_imgs/42/59ecd108-60ab-4b43-8153-1c6d4295960d
+05/03/2020 21:19:03 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/d2033ea3-d168-441a-9bff-059ca0b7f150
+05/03/2020 21:19:03 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/public/snapshots_imgs/42/d2033ea3-d168-441a-9bff-059ca0b7f150
+05/03/2020 21:19:05 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/0374df80-f94a-4a40-b845-7a967151729d
+05/03/2020 21:19:05 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/public/snapshots_imgs/42/0374df80-f94a-4a40-b845-7a967151729d
+05/03/2020 21:19:05 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/79f89d17-a1e5-48b7-a89f-06a33fe6f2f7
+05/03/2020 21:19:06 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/public/snapshots_imgs/42/79f89d17-a1e5-48b7-a89f-06a33fe6f2f7
+05/03/2020 21:19:06 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/59ecd108-60ab-4b43-8153-1c6d4295960d
+05/03/2020 21:19:06 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/public/snapshots_imgs/42/59ecd108-60ab-4b43-8153-1c6d4295960d
+05/03/2020 21:19:07 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/d2033ea3-d168-441a-9bff-059ca0b7f150
+05/03/2020 21:19:07 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/public/snapshots_imgs/42/d2033ea3-d168-441a-9bff-059ca0b7f150
+05/03/2020 21:19:09 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/0374df80-f94a-4a40-b845-7a967151729d
+05/03/2020 21:19:09 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/public/snapshots_imgs/42/0374df80-f94a-4a40-b845-7a967151729d
+05/03/2020 21:19:10 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/data/shared_data/42/79f89d17-a1e5-48b7-a89f-06a33fe6f2f7
+05/03/2020 21:19:10 - bci.utils.file_system_handler - DEBUG - creating file: ./bci/public/snapshots_imgs/42/79f89d17-a1e5-48b7-a89f-06a33fe6f2f7

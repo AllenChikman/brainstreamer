@@ -1,5 +1,4 @@
 import pymongo
-from bson.json_util import dumps
 
 DB = "db"
 USERS_COL = "users"
@@ -42,3 +41,6 @@ class MongoDB:
 
     def get_snapshot_by_id(self, user_id, snapshot_id):
         return self.snapshots.find_one({'user_id': user_id, 'snapshot_id': snapshot_id}, {'_id': 0})
+
+    def log_collection(self):
+        print((list(self.db.collection.find({}))))

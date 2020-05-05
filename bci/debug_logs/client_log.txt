@@ -1,0 +1,27 @@
+05/03/2020 21:19:01 - bci.client.client - DEBUG - ('127.0.0.1', 8000)
+05/03/2020 21:19:01 - bci.client.client - DEBUG - running client
+05/03/2020 21:19:01 - bci.protocols.cogintion_pb_protocol.reader - DEBUG - Reader initialized
+05/03/2020 21:19:01 - bci.client.client - DEBUG - initialized reader
+05/03/2020 21:19:01 - bci.protocols.cogintion_pb_protocol.reader - DEBUG - getting user
+05/03/2020 21:19:01 - bci.protocols.cogintion_pb_protocol.reader - DEBUG - username: Dan Gittik
+05/03/2020 21:19:01 - bci.client.client - DEBUG - read user successfully
+05/03/2020 21:19:01 - bci.protocols.cogintion_pb_protocol.reader - DEBUG - getting snapshot
+05/03/2020 21:19:01 - bci.client.client - DEBUG - read snapshot successfully
+05/03/2020 21:19:01 - bci.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/03/2020 21:19:01 - bci.client.client - DEBUG - client posted snapshot successfully
+05/03/2020 21:19:01 - bci.protocols.cogintion_pb_protocol.reader - DEBUG - getting snapshot
+05/03/2020 21:19:01 - bci.client.client - DEBUG - read snapshot successfully
+05/03/2020 21:19:01 - bci.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/03/2020 21:19:02 - bci.client.client - DEBUG - client posted snapshot successfully
+05/03/2020 21:19:02 - bci.protocols.cogintion_pb_protocol.reader - DEBUG - getting snapshot
+05/03/2020 21:19:02 - bci.client.client - DEBUG - read snapshot successfully
+05/03/2020 21:19:02 - bci.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/03/2020 21:19:03 - bci.client.client - DEBUG - client posted snapshot successfully
+05/03/2020 21:19:03 - bci.protocols.cogintion_pb_protocol.reader - DEBUG - getting snapshot
+05/03/2020 21:19:03 - bci.client.client - DEBUG - read snapshot successfully
+05/03/2020 21:19:03 - bci.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/03/2020 21:19:03 - bci.client.client - DEBUG - client posted snapshot successfully
+05/03/2020 21:19:03 - bci.protocols.cogintion_pb_protocol.reader - DEBUG - getting snapshot
+05/03/2020 21:19:04 - bci.client.client - DEBUG - read snapshot successfully
+05/03/2020 21:19:04 - bci.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/03/2020 21:19:04 - bci.client.client - DEBUG - client posted snapshot successfully

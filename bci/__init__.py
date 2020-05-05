@@ -1,2 +1,2 @@
-from .server import run  # noqarun_server
-from .client import run  # noqa
+from bci.server.server import run  # noqarun_server
+from bci.client.client import run  # noqa

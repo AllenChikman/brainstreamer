@@ -4,7 +4,7 @@ from furl import furl
 from brainstreamer.utils import my_util_functions as my_utils
 
 logger = logging.getLogger(__name__)
-mq_drivers = my_utils.load_drivers(drivers_path="./brainstreamer/message_queue/mq_drivers", driver_type="class")
+mq_drivers = my_utils.load_drivers(drivers_path="./brainstreamer/platforms/message_queue/mq_drivers", driver_type="class")
 
 
 class MqWrapper:

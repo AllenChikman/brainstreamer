@@ -29,4 +29,4 @@ def parse_color_image(snapshot):
     return dict(data_path=img_path, image_width=width, image_height=height)
 
 
-parse_color_image.topic = 'color_image'
+parse_color_image.scheme = 'color_image'

@@ -1,0 +1,35 @@
+## General:
+
+
+
+## Reader:
+
+
+## Client:
+
+client looks OK - just need to adjust the reading to be without stop
+
+## Server:
+
+
+## Parsers:
+
+
+## MessageQueue:
+
+
+## Database:
+
+
+
+## Saver:
+
+saver looks - OK
+
+
+## CLI:
+
+
+
+
+## API:

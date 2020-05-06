@@ -1,6 +1,6 @@
 import struct
 import io
-from brainstreamer.platforms.protocols import User, Snapshot
+from .data.cortex_pb2 import User, Snapshot
 
 """
 protocol will include passing data of the user and single snapshot of his in the following manner:

@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, send_file
-from brainstreamer.databases.database import Database
+from brainstreamer.platforms.databases import DBWrapper
 
 serv = Flask(__name__)
 db = None
@@ -7,7 +7,7 @@ db = None
 
 def run_api_server(host, port, database_url):
     global db
-    db = Database(database_url)
+    db = DBWrapper(database_url)
     serv.run(host, int(port))
 
 

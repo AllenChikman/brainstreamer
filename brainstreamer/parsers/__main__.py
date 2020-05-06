@@ -5,6 +5,8 @@ from .parsing_manager import run_all_parsers
 from ..utils import my_util_functions as my_utils
 
 
+DEFAULT_MQ_ADDRESS = "rabbitmq://127.0.0.1:5672"
+
 @click.group()
 def cli():
     pass
@@ -21,14 +23,14 @@ def parse(parser_name, path):
 
 @cli.command()
 @click.argument('parser_name')
-@click.option('--mq_url', default='rabbitmq://127.0.0.1:5672')
+@click.option('--mq_url', default=DEFAULT_MQ_ADDRESS)
 def run_parser(parser_name, mq_url):
     register_parser(parser_name, mq_url)
 
 
 @cli.command()
 def run_parsers():
-    run_all_parsers('rabbitmq://127.0.0.1:5672')
+    run_all_parsers(DEFAULT_MQ_ADDRESS)
 
 
 if __name__ == '__main__':

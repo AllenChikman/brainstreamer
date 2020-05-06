@@ -18,4 +18,4 @@ def parse_pose(snapshot):
     return dict(rotation=rotation, translation=translation)
 
 
-parse_pose.topic = 'pose'
+parse_pose.scheme = 'pose'

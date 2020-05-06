@@ -1,10 +1,10 @@
 import logging
 from furl import furl
 
-from ..utils import my_util_functions as my_utils
+from brainstreamer.utils import my_util_functions as my_utils
 
 logger = logging.getLogger(__name__)
-db_drivers = my_utils.load_drivers(drivers_path="./brainstreamer/databases/db_drivers", driver_type="class")
+db_drivers = my_utils.load_drivers(drivers_path="./brainstreamer/platforms/databases/db_drivers", driver_type="class")
 
 
 class DBWrapper:

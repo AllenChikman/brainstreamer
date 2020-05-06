@@ -1,7 +1,7 @@
 import requests
 
-from brainstreamer.protocols.cogintion_pb_protocol.reader import Reader
-from brainstreamer.protocols.cogintion_pb_protocol import cognition_pb_protocol as cp
+from brainstreamer.platforms.protocols.cogintion_pb_protocol.reader import Reader
+from brainstreamer.platforms.protocols.cogintion_pb_protocol import cognition_pb_protocol as cp
 import logging
 
 
@@ -13,10 +13,11 @@ def run(address, sample_path):
     reader = Reader(sample_path + "/sample.mind.gz")
     logger.debug("initialized reader")
 
-    num_of_snapshots_to_read = 5
+    num_of_snapshots_to_read = 10
 
     user = reader.get_user()
     logger.debug("read user successfully")
+
     for i in range(num_of_snapshots_to_read):
         snapshot = reader.get_snapshot()
         logger.debug("read snapshot successfully")

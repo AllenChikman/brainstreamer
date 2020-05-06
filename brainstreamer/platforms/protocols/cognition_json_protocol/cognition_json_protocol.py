@@ -1,6 +1,6 @@
 import json
 
-data_dir = './brainstreamer/data/shared_data'
+data_dir = './brainstreamer/data/protocol_shared_data'
 
 
 def get_data_path():

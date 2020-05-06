@@ -46,4 +46,4 @@ def parse_depth_image(snapshot):
     return dict(data_path=img_path, image_width=fig_width, image_height=fig_height)
 
 
-parse_depth_image.topic = 'depth_image'
+parse_depth_image.scheme = 'depth_image'

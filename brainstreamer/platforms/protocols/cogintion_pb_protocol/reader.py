@@ -1,7 +1,7 @@
 import gzip
 import struct
 import logging
-from brainstreamer.platforms.protocols import User, Snapshot
+from .data.cortex_pb2 import User, Snapshot
 
 UINT_SIZE = 4
 

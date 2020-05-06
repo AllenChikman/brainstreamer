@@ -1,10 +1,10 @@
 import json
 import logging
 
-from brainstreamer.message_queue import MqWrapper
-from brainstreamer.protocols.cogintion_pb_protocol import cognition_pb_protocol as cp
-from brainstreamer.protocols.cognition_json_protocol import cognition_json_protocol as cjsp
-from brainstreamer.protocols import protocol_glue as proto_glue
+from brainstreamer.platforms.message_queue import MqWrapper
+from brainstreamer.platforms.protocols import protocol_glue as proto_glue
+from brainstreamer.platforms.protocols.cogintion_pb_protocol import cognition_pb_protocol as cp
+from brainstreamer.platforms.protocols.cognition_json_protocol import cognition_json_protocol as cjsp
 from flask import Flask, request
 from brainstreamer.utils import FileSystemHandler as FSH
 

@@ -11,4 +11,4 @@ def parse_feelings(snapshot):
         timestamp=snapshot["datetime"])
 
 
-parse_feelings.topic = "feelings"
+parse_feelings.scheme = "feelings"

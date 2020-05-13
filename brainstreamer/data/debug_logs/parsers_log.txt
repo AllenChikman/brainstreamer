@@ -39,3 +39,7 @@
 05/07/2020 01:50:10 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/public/snapshots_imgs/42/8bad3450-4dfc-49c5-aacd-6bd6f6bc40bd
 05/07/2020 01:50:14 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/925cf3c3-5ca0-450e-b9b0-df013bea8549
 05/07/2020 01:50:14 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/public/snapshots_imgs/42/925cf3c3-5ca0-450e-b9b0-df013bea8549
+05/13/2020 02:06:08 - pika.adapters.blocking_connection - ERROR - Unexpected connection close detected: ConnectionClosedByBroker: (320) "CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'"
+05/13/2020 02:06:08 - pika.adapters.blocking_connection - ERROR - Unexpected connection close detected: ConnectionClosedByBroker: (320) "CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'"
+05/13/2020 02:06:08 - pika.adapters.blocking_connection - ERROR - Unexpected connection close detected: ConnectionClosedByBroker: (320) "CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'"
+05/13/2020 02:06:08 - pika.adapters.blocking_connection - ERROR - Unexpected connection close detected: ConnectionClosedByBroker: (320) "CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'"

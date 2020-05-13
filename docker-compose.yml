@@ -1,0 +1,33 @@
+version: '3.3'
+
+services:
+  db:
+    image: mongo
+    restart: on-failure
+    networks:
+      - brainsreamer-net
+    ports:
+      - "27017:27017"
+    volumes:
+      - ~/brainsreamer_data:/var/data/brainsreamer_data/db
+
+  mq:
+    image: rabbitmq
+    restart: on-failure
+    networks:
+      - brainsreamer-net
+    ports:
+      - "5672:5672"
+	
+  base:
+    build:
+      context: .
+      dockerfile: ./docker-files/Dockerfile-base
+    networks:
+      - brainsreamer-net
+
+
+
+
+networks:
+  brainsreamer-net:

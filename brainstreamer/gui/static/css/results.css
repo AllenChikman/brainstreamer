@@ -1,0 +1,76 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+
+
+a.start_button{
+ display:inline-block;
+ padding:0.3em 1.2em;
+ margin:0 0.1em 0.1em 0;
+ border:0.16em solid rgba(255,255,255,0);
+ border-radius:2em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ font-size: 200%;
+ color:#FFFFFF;
+ text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+ text-align:center;
+ transition: all 0.2s;
+
+}
+a.start_button:hover{
+ border-color: rgba(255,255,255,1);
+}
+@media all and (max-width:30em){
+ a.start_button{
+ display:block;
+ margin:0.2em auto;
+ }
+}
+
+a.back_arrow{
+    height:50px;
+    line-height:50px;
+    vertical-align:middle;
+    text-align:center;
+    padding:0 10px;
+    background-color:#007bff;
+    position:relative;
+    display:inline-block;
+	color: black;
+	text-decoration: none;
+	background-color: #D3D3D3;
+	font-weight: bold;
+}
+a.back_arrow:after{
+    position:absolute;
+    right:-20px;
+    content:" ";
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 25px 0 25px 20px;
+    border-color: transparent transparent transparent #D3D3D3;
+
+}
+a.back_arrow:hover{
+    background-color:#FFFFFF;
+}
+a.back_arrow:hover:after{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 25px 0 25px 20px;
+    border-color: transparent transparent transparent #FFFFFF;
+}

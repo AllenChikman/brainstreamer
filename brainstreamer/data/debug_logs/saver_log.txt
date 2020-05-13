@@ -1,0 +1,5 @@
+05/13/2020 02:06:08 - pika.adapters.blocking_connection - ERROR - Unexpected connection close detected: ConnectionClosedByBroker: (320) "CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'"
+05/13/2020 02:06:08 - pika.adapters.blocking_connection - ERROR - Unexpected connection close detected: ConnectionClosedByBroker: (320) "CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'"
+05/13/2020 02:06:08 - pika.adapters.blocking_connection - ERROR - Unexpected connection close detected: ConnectionClosedByBroker: (320) "CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'"
+05/13/2020 02:06:08 - pika.adapters.blocking_connection - ERROR - Unexpected connection close detected: ConnectionClosedByBroker: (320) "CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'"
+05/13/2020 02:06:08 - pika.adapters.blocking_connection - ERROR - Unexpected connection close detected: ConnectionClosedByBroker: (320) "CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'"

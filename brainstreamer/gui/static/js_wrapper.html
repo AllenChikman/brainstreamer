@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<title>JS Wrapper</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+
+
+<h2 class="w3-center">JS Wrapper</h2>
+
+
+<table id="users"></table>
+
+<table id="snapshots"></table>
+
+<table id="result_fields"></table>
+
+<table id="snapshot_display"></table>
+
+
+<script src="./js/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+function getUsers(){
+	var base_url = "http://localhost:5000";
+	var users_url = base_url + "/users";
+
+  $.get(users_url,function(data){
+    var users = data;
+
+    for(var i=0; i<users.length; i++){
+      var user = users[i];
+      var row = $('<tr></tr>');
+      var temp_user = $('<td></td>', {'text':user.username});
+      row.append(temp_user);
+      $('#users').append(row);
+    }
+  });
+}
+</script>
+
+
+<script>
+function getSnapshots(user_id){
+	var base_url = "http://localhost:5000";
+	var user_url = base_url + "/users" + "/" +user_id + "/snapshots";
+
+  $.get(user_url,function(data){
+    var snapshots = data;
+
+    for(var i=0; i<snapshots.length; i++){
+      var snapshot = snapshots[i];
+      var row = $('<tr></tr>');
+      var temp_snapshot = $('<td></td>', {'text':snapshot.datetime});
+      row.append(temp_snapshot);
+      $('#snapshots').append(row);
+    }
+  });
+}
+</script>
+
+<script>
+function getSnapshots(user_id){
+	var base_url = "http://localhost:5000";
+	var user_url = base_url + "/users" + "/" +user_id + "/snapshots";
+
+  $.get(user_url,function(data){
+    var snapshots = data;
+
+    for(var i=0; i<snapshots.length; i++){
+      var snapshot = snapshots[i];
+      var row = $('<tr></tr>');
+      var temp_snapshot = $('<td></td>', {'text':snapshot.datetime});
+      row.append(temp_snapshot);
+      $('#snapshots').append(row);
+    }
+  });
+}
+</script>
+
+<script>
+function getResultFields(user_id, snapshot_id){
+	var base_url = "http://localhost:5000";
+	var result_fields_url = base_url + "/users" + "/" +user_id + "/snapshots" +"/" + snapshot_id;
+    var pose_url = result_fields_url + "/pose"
+    var feelings_url = result_fields_url + "/feelings"
+    var color_image_url = result_fields_url + "/color_image"
+    var depth_image_url = result_fields_url + "/depth_image"
+
+  $.get(pose_url,function(data){
+    var result_fields = data;
+
+	var row = $('<tr></tr>');
+    row.append( $('<td></td>', {'text':'rotation:'}));
+	row.append( $('<td></td>', {'text':result_fields.rotation.w.toFixed(4)}));
+	row.append( $('<td></td>', {'text':result_fields.rotation.x.toFixed(4)}));
+	row.append( $('<td></td>', {'text':result_fields.rotation.y.toFixed(4)}));
+	row.append( $('<td></td>', {'text':result_fields.rotation.z.toFixed(4)}));
+	row.append( $('<td></td>', {'text':result_fields[1]}));
+
+    $('#result_fields').append(row);
+
+    row = $('<tr></tr>');
+    row.append( $('<td></td>', {'text':'translation:'}));
+	row.append( $('<td></td>', {'text':result_fields.translation.x.toFixed(4)}));
+	row.append( $('<td></td>', {'text':result_fields.translation.y.toFixed(4)}));
+	row.append( $('<td></td>', {'text':result_fields.translation.z.toFixed(4)}));
+	row.append( $('<td></td>', {'text':result_fields[1]}));
+
+	$('#result_fields').append(row);
+
+
+  });
+
+
+    $.get(feelings_url,function(data){
+    var result_fields = data;
+
+	var row = $('<tr></tr>');
+    row.append( $('<td></td>', {'text':'Hunger:'}));
+	row.append( $('<td></td>', {'text':result_fields.hunger.toFixed(4)}));
+
+    $('#result_fields').append(row);
+
+	var row = $('<tr></tr>');
+    row.append( $('<td></td>', {'text':'Thirst:'}));
+	row.append( $('<td></td>', {'text':result_fields.thirst.toFixed(4)}));
+
+    $('#result_fields').append(row);
+
+    var row = $('<tr></tr>');
+    row.append( $('<td></td>', {'text':'Happiness:'}));
+	row.append( $('<td></td>', {'text':result_fields.happiness.toFixed(4)}));
+
+    $('#result_fields').append(row);
+
+    	var row = $('<tr></tr>');
+    row.append( $('<td></td>', {'text':'Exhaustion:'}));
+	row.append( $('<td></td>', {'text':result_fields.exhaustion.toFixed(4)}));
+
+    $('#result_fields').append(row);
+
+
+  });
+
+    $.get(color_image_url,function(data){
+    var result_fields = data;
+    var idx = result_fields.data_path.indexOf("snapshots_imgs/");
+    var img_path = result_fields.data_path.slice(idx);
+    img_path = "/static/" + img_path;
+
+	var row = $('<tr></tr>');
+    row.append( $('<td></td>', {'text':'Color Image:'}));
+	row.append( $('<td></td>', {'text':img_path}));
+
+    $('#result_fields').append(row);
+
+
+   });
+
+   $.get(depth_image_url,function(data){
+    var result_fields = data;
+    var idx = result_fields.data_path.indexOf("snapshots_imgs/");
+    var img_path = result_fields.data_path.slice(idx);
+    img_path = "/static/" + img_path;
+
+	var row = $('<tr></tr>');
+    row.append( $('<td></td>', {'text':'Depth Image:'}));
+	row.append( $('<td></td>', {'text':img_path}));
+
+    $('#result_fields').append(row);
+
+
+   });
+
+}
+</script>
+
+
+<script>
+getUsers();
+getSnapshots(42);
+getResultFields(42,"925cf3c3-5ca0-450e-b9b0-df013bea8549");
+</script>
+
+
+</body>
+</html>

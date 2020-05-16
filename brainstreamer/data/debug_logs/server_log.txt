@@ -1,41 +1,41 @@
-05/07/2020 01:49:28 - brainstreamer.server.server - DEBUG - running server
-05/07/2020 01:49:45 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/07/2020 01:49:45 - brainstreamer.server.server - DEBUG - saving images
-05/07/2020 01:49:45 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/ae75c800-27a6-4ecc-9cd8-ed93bda21f9f
-05/07/2020 01:49:45 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/ae75c800-27a6-4ecc-9cd8-ed93bda21f9f
-05/07/2020 01:49:46 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/07/2020 01:49:46 - brainstreamer.server.server - DEBUG - saving images
-05/07/2020 01:49:46 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/59432955-a588-4c41-acfe-b4a2ea8bb038
-05/07/2020 01:49:46 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/59432955-a588-4c41-acfe-b4a2ea8bb038
-05/07/2020 01:49:46 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/07/2020 01:49:47 - brainstreamer.server.server - DEBUG - saving images
-05/07/2020 01:49:47 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/49479b70-0490-4536-987d-43e9acafdd34
-05/07/2020 01:49:47 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/49479b70-0490-4536-987d-43e9acafdd34
-05/07/2020 01:49:47 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/07/2020 01:49:47 - brainstreamer.server.server - DEBUG - saving images
-05/07/2020 01:49:47 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/ebeaba70-7361-45b0-b7fc-ee91490fb240
-05/07/2020 01:49:47 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/ebeaba70-7361-45b0-b7fc-ee91490fb240
-05/07/2020 01:49:48 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/07/2020 01:49:48 - brainstreamer.server.server - DEBUG - saving images
-05/07/2020 01:49:48 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/afb56377-3fca-4887-96a4-4daff0e4740a
-05/07/2020 01:49:48 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/afb56377-3fca-4887-96a4-4daff0e4740a
-05/07/2020 01:49:48 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/07/2020 01:49:48 - brainstreamer.server.server - DEBUG - saving images
-05/07/2020 01:49:48 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/91d8d5b8-d24c-49b1-9713-b03b572820a0
-05/07/2020 01:49:48 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/91d8d5b8-d24c-49b1-9713-b03b572820a0
-05/07/2020 01:49:49 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/07/2020 01:49:49 - brainstreamer.server.server - DEBUG - saving images
-05/07/2020 01:49:49 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/554a2f50-bb78-46ac-beac-c2d998a50d33
-05/07/2020 01:49:49 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/554a2f50-bb78-46ac-beac-c2d998a50d33
-05/07/2020 01:49:49 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/07/2020 01:49:49 - brainstreamer.server.server - DEBUG - saving images
-05/07/2020 01:49:49 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/e1227283-a4ea-4183-9689-c6206f7f0a40
-05/07/2020 01:49:49 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/e1227283-a4ea-4183-9689-c6206f7f0a40
-05/07/2020 01:49:50 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/07/2020 01:49:50 - brainstreamer.server.server - DEBUG - saving images
-05/07/2020 01:49:50 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/8bad3450-4dfc-49c5-aacd-6bd6f6bc40bd
-05/07/2020 01:49:50 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/8bad3450-4dfc-49c5-aacd-6bd6f6bc40bd
-05/07/2020 01:49:51 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/07/2020 01:49:51 - brainstreamer.server.server - DEBUG - saving images
-05/07/2020 01:49:51 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/925cf3c3-5ca0-450e-b9b0-df013bea8549
-05/07/2020 01:49:51 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/925cf3c3-5ca0-450e-b9b0-df013bea8549
+05/14/2020 03:35:32 - brainstreamer.server.server - DEBUG - running server
+05/14/2020 03:35:51 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/14/2020 03:35:52 - brainstreamer.server.server - DEBUG - saving images
+05/14/2020 03:35:52 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/630d1f82-860c-4cfb-aac9-65b50a08d619
+05/14/2020 03:35:52 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/630d1f82-860c-4cfb-aac9-65b50a08d619
+05/14/2020 03:35:53 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/14/2020 03:35:53 - brainstreamer.server.server - DEBUG - saving images
+05/14/2020 03:35:53 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/0301500b-08be-46f4-8fba-52e647e90852
+05/14/2020 03:35:53 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/0301500b-08be-46f4-8fba-52e647e90852
+05/14/2020 03:35:54 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/14/2020 03:35:54 - brainstreamer.server.server - DEBUG - saving images
+05/14/2020 03:35:54 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/0ab958b8-d777-45f3-88ad-e79aa8f2900c
+05/14/2020 03:35:54 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/0ab958b8-d777-45f3-88ad-e79aa8f2900c
+05/14/2020 03:35:55 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/14/2020 03:35:55 - brainstreamer.server.server - DEBUG - saving images
+05/14/2020 03:35:55 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/152d914e-a2ca-4d6a-81d1-7bf1161da4ae
+05/14/2020 03:35:55 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/152d914e-a2ca-4d6a-81d1-7bf1161da4ae
+05/14/2020 03:35:56 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/14/2020 03:35:56 - brainstreamer.server.server - DEBUG - saving images
+05/14/2020 03:35:56 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/0399a9ef-8645-4516-8e59-c4f335dd6722
+05/14/2020 03:35:56 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/0399a9ef-8645-4516-8e59-c4f335dd6722
+05/14/2020 03:35:57 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/14/2020 03:35:57 - brainstreamer.server.server - DEBUG - saving images
+05/14/2020 03:35:57 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/8d2cd7ac-edb1-4ba4-8033-6ec3ce306764
+05/14/2020 03:35:57 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/8d2cd7ac-edb1-4ba4-8033-6ec3ce306764
+05/14/2020 03:35:57 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/14/2020 03:35:58 - brainstreamer.server.server - DEBUG - saving images
+05/14/2020 03:35:58 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/fb7ce401-fe21-4bc6-9700-7a9eff7a7bae
+05/14/2020 03:35:58 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/fb7ce401-fe21-4bc6-9700-7a9eff7a7bae
+05/14/2020 03:35:58 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/14/2020 03:35:58 - brainstreamer.server.server - DEBUG - saving images
+05/14/2020 03:35:58 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/62294808-5bbd-40d1-9e91-bfe45daa88f4
+05/14/2020 03:35:58 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/62294808-5bbd-40d1-9e91-bfe45daa88f4
+05/14/2020 03:35:59 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/14/2020 03:35:59 - brainstreamer.server.server - DEBUG - saving images
+05/14/2020 03:35:59 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/492de0ba-d292-4b0e-8a26-468b71f39c8f
+05/14/2020 03:35:59 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/492de0ba-d292-4b0e-8a26-468b71f39c8f
+05/14/2020 03:36:00 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/14/2020 03:36:00 - brainstreamer.server.server - DEBUG - saving images
+05/14/2020 03:36:00 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/2c3462e8-9fd1-4d61-bd3d-5f501b233be8
+05/14/2020 03:36:00 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/2c3462e8-9fd1-4d61-bd3d-5f501b233be8

@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="/static/external_css/font_awesome/css/font-awesome.min.css">
 <link rel='stylesheet' type='text/css' href='/static/css/users.css'>
 <script language="JavaScript" type="text/javascript" src='/static/js/jquery/3.4.1/jquery.min.js'></script>
-<script type="text/javascript" src="/static/js/js_wrapper.js"></script>
+<script type="text/javascript" src="/static/js/users.js"></script>
 <style>
 
 </style>
@@ -46,54 +46,16 @@
     <h1 class="w3-jumbo">Users</h1>
       </header>
 
-  <table id="users"></table>
-  <script>    getUsers()   </script>
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
     <h2 class="w3-text-light-grey">User List</h2>
     <hr style="width:200px" class="w3-opacity">
-	
-	<ul class="tilesWrap">
-	<li>
-		<h2>01</h2>
-		<h3>Dan Gittik</h3>
-		<p></p>
-		<p>	ID: 42</p>
-		<p>	Gender: Male</p>
-		<p>	Birthdate: 6/8/1992</p>
-		<button onclick="location.href='/snapshots/42'">Get Snapshots</button>
-	</li>
-	
-	<li>
-		<h2>02</h2>
-		<h3>Allen Chikman</h3>
-		<p></p>
-		<p>	ID: 78</p>
-		<p>	Gender: Male</p>
-		<p>	Birthdate: 15/8/1995</p>
-		<button onclick="location.href='/snapshots/42'">Get Snapshots</button>
-	</li>
-	
-	<li>
-		<h2>03</h2>
-		<h3>Nir Endy</h3>
-		<p></p>
-		<p>	ID: 86</p>
-		<p>	Gender: Male</p>
-		<p>	Birthdate: 2/10/1992</p>
-		<button onclick="location.href='/snapshots/42'">Get Snapshots</button>
-	</li>
 
-
-</ul>
+	<ul class="tilesWrap" id ="rendered_user_list">	</ul>
 
   <!-- End Contact Section -->
   </div>
-  
-  
-
-
 <!-- END PAGE CONTENT -->
 </div>
 

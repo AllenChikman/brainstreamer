@@ -1,6 +1,0 @@
-FROM brainstreamer-base
-
-ENV HOST 0.0.0.0
-ENV PORT 8000
-ENV MQ_URL rabbitmq://mq:5672
-CMD python -m brainstreamer.server run-server -h ${HOST} -p ${PORT} ${MQ_URL}

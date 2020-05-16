@@ -9,7 +9,7 @@ from brainstreamer.utils import my_util_functions as my_utils
 def _snapshot_to_flat_dict(snapshot):
     d = dict()
 
-    d["datetime"] = snapshot.datetime
+    d["datetime"] = my_utils.epoch_to_date(snapshot.datetime, milisecs=True)
 
     d["pose_translation_x"] = snapshot.pose.translation.x
     d["pose_translation_y"] = snapshot.pose.translation.y
@@ -52,7 +52,7 @@ def get_arranged_dicts(user, snapshot):
     user_dict = _user_to_flat_dict(user)
 
     user_dict['gender'] = ['male', 'female', 'unknown'][user.gender]
-    user_dict['birthday'] = my_utils.epoch_to_date(user.birthday, "%d/%m/%Y")
+    user_dict['birthday'] = my_utils.epoch_to_date(user.birthday, date_format="%d/%m/%Y")
 
     # Snapshot Preparation
     snapshot_dict = _snapshot_to_flat_dict(snapshot)

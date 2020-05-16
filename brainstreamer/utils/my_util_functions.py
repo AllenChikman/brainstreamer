@@ -16,7 +16,8 @@ def init_logger(logger_file_name):
     logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 
-def epoch_to_date(seconds, date_format="%d/%m/%Y, %H:%M:%S:%f"):
+def epoch_to_date(time_passed, date_format="%d/%m/%Y, %H:%M:%S:%f", milisecs = False):
+    seconds = time_passed/1000 if milisecs else time_passed
     datetime = dt.datetime.fromtimestamp(seconds).strftime(date_format)
     return datetime
 

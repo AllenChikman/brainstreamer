@@ -1,7 +1,4 @@
-FROM python:3
-COPY requirements.txt /requirements.txt
-RUN pip install -r /requirements.txt
-COPY brainstreamer brainstreamer
+FROM brainstreamer-base
 
 ENV MQ_URL rabbitmq://mq:5672
 CMD python -m brainstreamer.parsers run-parser ${PARSER} ${MQ_URL}

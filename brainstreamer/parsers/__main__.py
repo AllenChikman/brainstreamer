@@ -1,6 +1,6 @@
 import click
 from . import parse as parse_data
-from . import run_parser as register_parser
+from . import run_parser as activate_parser
 from .parsing_manager import run_all_parsers
 from ..utils import my_util_functions as my_utils
 
@@ -23,9 +23,9 @@ def parse(parser_name, path):
 
 @cli.command()
 @click.argument('parser_name')
-@click.option('--mq_url', default=DEFAULT_MQ_ADDRESS)
+@click.argument('mq_url')
 def run_parser(parser_name, mq_url):
-    register_parser(parser_name, mq_url)
+    activate_parser(parser_name, mq_url)
 
 
 @cli.command()

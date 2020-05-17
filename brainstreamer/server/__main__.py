@@ -9,12 +9,12 @@ def cli():
 
 
 @cli.command()
-@click.option('--address', default="127.0.0.1:8000", help='address in a format of ip:port')
-def run_server(address):
-    host, port = address.split(':')
-    formatted_address = (host, int(port))
+@click.option('-h', '--host', default='127.0.0.1', help="Server host")
+@click.option('-p', '--port', default='8000',      help="Server port")
+@click.argument('mq_url')
+def run_server(host , port, mq_url):
     try:
-        server.run(formatted_address)
+        server.run(host, port, mq_url)
     except KeyboardInterrupt:
         print('Server terminated by user (KeyboardInterrupt)')
 

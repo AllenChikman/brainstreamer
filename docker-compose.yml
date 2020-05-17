@@ -5,130 +5,146 @@ services:
     image: mongo
     restart: on-failure
     networks:
-      - brainsreamer-net
+      - brainstreamer-net
     ports:
       - "27017:27017"
     volumes:
-      - ~/brainsreamer_data:/var/data/brainsreamer_data/db
+      - brainstreamer-data:/var/data/brainstreamer_data/db
 
   mq:
     image: rabbitmq
     restart: on-failure
     networks:
-      - brainsreamer-net
+      - brainstreamer-net
     ports:
       - "5672:5672"
 
+  base:
+    build:
+      context: .
+      dockerfile: ./dockerfiles/Dockerfile-base
+    image: brainstreamer-base:latest
 
   server:
     depends_on:
       - mq
+      - base
     build:
       context: .
       dockerfile: ./dockerfiles/Dockerfile-server
     restart: on-failure
     networks:
-      - brainsreamer-net
+      - brainstreamer-net
     ports:
       - "8000:8000"
     volumes:
-      - ~/brainsreamer_data:/var/data/brainsreamer_data
+      - brainstreamer-data:/var/data/brainstreamer_data
 
   pose-parser:
     depends_on:
       - mq
+      - base
     build:
       context: .
       dockerfile: ./dockerfiles/Dockerfile-parsers
     restart: on-failure
     networks:
-      - brainsreamer-net
+      - brainstreamer-net
     environment:
       - PARSER=pose
     volumes:
-      - ~/brainsreamer_data:/var/data/brainsreamer_data
+      - brainstreamer-data:/var/data/brainstreamer_data
 
   feelings-parser:
     depends_on:
       - mq
+      - base
     build:
       context: .
       dockerfile: ./dockerfiles/Dockerfile-parsers
     restart: on-failure
     networks:
-      - brainsreamer-net
+      - brainstreamer-net
     environment:
       - PARSER=feelings
     volumes:
-      - ~/brainsreamer_data:/var/data/brainsreamer_data
+      - brainstreamer-data:/var/data/brainstreamer_data
 
   depth-image-parser:
     depends_on:
       - mq
+      - base
     build:
       context: .
       dockerfile: ./dockerfiles/Dockerfile-parsers
     restart: on-failure
     networks:
-      - brainsreamer-net
+      - brainstreamer-net
     environment:
       - PARSER=depth_image
     volumes:
-      - ~/brainsreamer_data:/var/data/brainsreamer_data
+      - brainstreamer-data:/var/data/brainstreamer_data
 
   color-image-parser:
     depends_on:
       - mq
+      - base
     build:
       context: .
       dockerfile: ./dockerfiles/Dockerfile-parsers
     restart: on-failure
     networks:
-      - brainsreamer-net
+      - brainstreamer-net
     environment:
       - PARSER=color_image
     volumes:
-      - ~/brainsreamer_data:/var/data/brainsreamer_data
+      - brainstreamer-data:/var/data/brainstreamer_data
 
   saver:
     depends_on:
       - mq
       - db
+      - base
     build:
       context: .
       dockerfile: ./dockerfiles/Dockerfile-saver
     restart: on-failure
     networks:
-      - brainsreamer-net
+      - brainstreamer-net
     volumes:
-      - ~/brainsreamer_data:/var/data/brainsreamer_data
+      - brainstreamer-data:/var/data/brainstreamer_data
 
   api:
     depends_on:
       - db
+      - base
     build:
       context: .
       dockerfile: ./dockerfiles/Dockerfile-api
     restart: on-failure
     networks:
-      - brainsreamer-net
+      - brainstreamer-net
     ports:
       - "5000:5000"
     volumes:
-      - ~/brainsreamer_data:/var/data/brainsreamer_data
+      - brainstreamer-data:/var/data/brainstreamer_data
 
   gui:
     depends_on:
       - api
+      - base
     build:
       context: .
       dockerfile: ./dockerfiles/Dockerfile-gui
     restart: on-failure
     networks:
-      - brainsreamer-net
+      - brainstreamer-net
     ports:
       - "8080:8080"
 
 
 networks:
-  brainsreamer-net:
+  brainstreamer-net:
+
+volumes:
+  brainstreamer-data:

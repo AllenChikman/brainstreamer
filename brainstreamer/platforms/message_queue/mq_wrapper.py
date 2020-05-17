@@ -12,13 +12,14 @@ class MqWrapper:
     def __init__(self, url):
         url = furl(url)
         scheme, host, port = url.scheme, url.host, url.port
+        logger.debug(f"Init of Mq: {url}")
 
         if scheme not in mq_drivers:
             raise ValueError(f"Unsupported MQ driver: {scheme}")
         try:
             self.mq = mq_drivers[scheme](host, port)
         except ConnectionError:
-            raise ConnectionError(f"Couldn't to MQ driver: {scheme}")
+            raise ConnectionError(f"Couldn't to MQ driver: {scheme}{mq_drivers}{host}{port}")
 
     def publish(self, topic, message):
         self.mq.publish(topic, message)

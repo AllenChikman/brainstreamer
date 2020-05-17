@@ -13,8 +13,7 @@ logger = logging.getLogger(__name__)
 url = None
 
 
-def run(address, mq_url="rabbitmq://127.0.0.1:5672"):
-    host, port = address
+def run(host, port, mq_url):
     logger.debug("running server")
 
     global url

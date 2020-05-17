@@ -9,13 +9,13 @@ def cli():
 
 
 @cli.command()
-@click.option('--address', default="127.0.0.1:8000", help='address in a format of ip:port')
-@click.option('--sample_path', default="./brainstreamer/data", help='path of the mind sample')
-def upload_sample(address, sample_path):
-    ip, port = address.split(":")
-    formatted_address = (ip, int(port))
+@click.option('-h', '--host', default='127.0.0.1',      help="Server host")
+@click.option('-p', '--port', default=8000,             help="Server port")
+@click.option('-n', '--num-snaps', default=10,           help="Number of snapshots to read")
+@click.argument('path')
+def upload_sample(host, port , num_snaps, path):
     try:
-        client.run(formatted_address, sample_path)
+        client.run(host, int(port), num_snaps , path)
     except Exception as error:
         print(f'ERROR: {error}')
     pass

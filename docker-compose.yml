@@ -39,6 +39,7 @@ services:
       - "8000:8000"
     volumes:
       - brainstreamer-data:/var/data/brainstreamer_data
+      - ./brainstreamer/data:/brainstreamer/data
 
   pose-parser:
     depends_on:
@@ -84,6 +85,8 @@ services:
       - PARSER=depth_image
     volumes:
       - brainstreamer-data:/var/data/brainstreamer_data
+      - ./brainstreamer/data:/brainstreamer/data
+      - ./brainstreamer/gui:/brainstreamer/gui
 
   color-image-parser:
     depends_on:
@@ -99,6 +102,8 @@ services:
       - PARSER=color_image
     volumes:
       - brainstreamer-data:/var/data/brainstreamer_data
+      - ./brainstreamer/data:/brainstreamer/data
+      - ./brainstreamer/gui:/brainstreamer/gui
 
   saver:
     depends_on:
@@ -141,6 +146,9 @@ services:
       - brainstreamer-net
     ports:
       - "8080:8080"
+    volumes:
+      - brainstreamer-data:/var/data/brainstreamer_data
+      - ./brainstreamer/gui:/brainstreamer/gui
 
 
 networks:

@@ -3,6 +3,7 @@ import requests
 from brainstreamer.platforms.protocols.cogintion_pb_protocol.reader import Reader
 from brainstreamer.platforms.protocols.cogintion_pb_protocol import cognition_pb_protocol as cp
 import logging
+from tqdm import tqdm
 
 
 def run(host, port, num_of_snaps_to_read, sample_path):
@@ -16,15 +17,35 @@ def run(host, port, num_of_snaps_to_read, sample_path):
     user = reader.get_user()
     logger.debug("read user successfully")
 
-    for i in range(num_of_snaps_to_read):
-        snapshot = reader.get_snapshot()
-        logger.debug("read snapshot successfully")
-        url = f'http://{host}:{port}/snapshot'
+    snapshots_uploaded = 0
 
-        logger.debug(f"posting snapshot to server on url: {url} ")
-        r = requests.post(url=url, data=cp.serialize_message(user, snapshot))
+    pbar = tqdm(total=num_of_snaps_to_read) if num_of_snaps_to_read else None
 
-        if r.status_code == 200:
-            logger.debug("client posted snapshot successfully")
-        else:
-            logger.error("client failed to post snapshot to server")
+    try:
+        for snapshot in reader:
+            if pbar:
+                pbar.update(1)
+                pbar.set_description("Uploading samples: ")
+            logger.debug("read snapshot successfully")
+            url = f'http://{host}:{port}/snapshot'
+
+            logger.debug(f"posting snapshot to server on url: {url} ")
+            r = requests.post(url=url, data=cp.serialize_message(user, snapshot))
+
+            if r.status_code == 200:
+                logger.debug("client posted snapshot successfully")
+            else:
+                logger.error("client failed to post snapshot to server")
+
+            snapshots_uploaded += 1
+            if num_of_snaps_to_read and snapshots_uploaded == num_of_snaps_to_read:
+                break
+
+    except KeyboardInterrupt:
+        print(f'Brain streaming stopped. total number of {snapshots_uploaded} snapshots were uploaded')
+        return
+
+    print(f"Brain Streaming succeeded. All the {snapshots_uploaded} snapshots were uploaded!")
+    logger.debug(f"Brain Streaming succeeded. All the {snapshots_uploaded} snapshots were uploaded!")
+    # if pbar:
+    #     pbar.close()

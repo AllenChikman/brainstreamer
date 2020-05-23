@@ -29,11 +29,11 @@
         <i class="fa fa-user w3-xxlarge"></i>
         <p>Users</p>
     </a>
-    <a href="/static/snapshots.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <a href="/users/{{user_id}}/snapshots" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
         <i class="fa fa-camera-retro w3-xxlarge"></i>
         <p>Snapshots</p>
     </a>
-    <a href="/static/results.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <a href="/users/{{user_id}}/snapshots/{{snapshot_id}}" class="w3-bar-item w3-button w3-padding-large w3-black">
         <i class="fa fa-tv w3-xxlarge"></i>
         <p>Results</p>
     </a>
@@ -44,8 +44,8 @@
     <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
         <a href="/" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
         <a href="/users" class="w3-bar-item w3-button" style="width:25% !important">Users</a>
-        <a href="/static/snapshots.html" class="w3-bar-item w3-button" style="width:25% !important">Snapshots</a>
-        <a href="/static/results.html" class="w3-bar-item w3-button" style="width:25% !important">Results</a>
+        <a href="/users/{{user_id}}/snapshots" class="w3-bar-item w3-button" style="width:25% !important">Snapshots</a>
+        <a href="/users/{{user_id}}/snapshots/{{snapshot_id}}" class="w3-bar-item w3-button" style="width:25% !important">Results</a>
 
     </div>
 </div>
@@ -53,18 +53,19 @@
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
 
-    <a href="/static/snapshots.html" class="back_arrow">Back to Snapshot List</a>
+    <a href="/users/{{user_id}}/snapshots" class="back_arrow">Back to Snapshot List</a>
     <!-- Header/Home -->
     <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
         <h1 class="w3-jumbo">Snapshot Results</h1>
     </header>
 
     <div class="w3-left w3-padding-large">
-        <a href="" class="start_button" style="background-color:#202020">&lt &lt Previous</a>
+        <a href="" class="start_button" style="background-color:#202020" id="prev">&lt &lt Previous</a>
     </div>
 
     <div class="w3-right w3-padding-large">
-        <a href="" class="start_button w3-right" style="background-color:#202020">&nbsp &nbsp Next &gt &gt &nbsp</a>
+        <a href="" class="start_button w3-right" style="background-color:#202020" id="next">&nbsp &nbsp Next &gt &gt
+            &nbsp</a>
     </div>
 
 
@@ -78,7 +79,7 @@
         </h3>
 
         <hr class="w3-opacity">
-        <table style="width:100%;" class="w3-text-white" id = "snapshot_results">
+        <table style="width:100%;" class="w3-text-white" id="snapshot_results">
         </table>
         <hr class="w3-opacity">
         <table style="width:100%;" class="w3-text-white">
@@ -87,7 +88,7 @@
                 <th style="text-decoration: underline;">Depth Image</th>
             </tr>
         </table>
-        <div id="snapshot_imgs"> </div>
+        <div id="snapshot_imgs"></div>
         <!-- End Contact Section -->
     </div>
 
@@ -97,10 +98,12 @@
 
 <script>
 $( document ).ready(function() {
+ add_next_prev( {{user_id}} , "{{snapshot_id}}" );
  UsernameText("username_text", {{user_id}});
  SnapshotTimestamp("snapshot_data", {{user_id}}, "{{snapshot_id}}");
  GetSnapshotResults("snapshot_results", "snapshot_imgs" ,{{user_id}}, "{{snapshot_id}}");
 });
+
 
 
 </script>

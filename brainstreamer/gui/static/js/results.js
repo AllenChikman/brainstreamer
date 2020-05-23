@@ -1,3 +1,45 @@
+async function add_next_prev(user_id, snapshot_id){
+	let base_url = "http://localhost:5000";
+	let snapshots_url = base_url + "/users/" + user_id + "/snapshots";
+  await $.get(snapshots_url,function(snapshots){
+      for(let i=0; i<snapshots.length; i++){
+		 let snapshot = snapshots[i];
+		 if (snapshot.snapshot_id == snapshot_id)
+		 {
+		    let isFirst = (i==0);
+		    let isLast = (i==snapshots.length-1);
+
+		    let prevButton = document.getElementById("prev");
+		    let nextButton = document.getElementById("next");
+		    if (!isFirst)
+		    {
+		        let prevSnapshot = snapshots[i-1];
+		        let prevUrl = "/users/" + user_id + "/snapshots/"+ prevSnapshot.snapshot_id;
+		        prevButton.href= prevUrl;
+		    }
+		    else
+		    {
+		        prevButton.style.display= "none"
+		    }
+
+		    if (!isLast)
+		    {
+                let nextSnapshot = snapshots[i+1];
+		        let nextUrl = "/users/" + user_id + "/snapshots/"+ nextSnapshot.snapshot_id;
+		        nextButton.href= nextUrl;
+		    }
+		    else
+		    {
+		        nextButton.style.display= "none"
+		    }
+		    break;
+		 }
+      }
+  });
+}
+
+
+
 function UsernameText(destId, user_id){
 
 	let base_url = "http://localhost:5000";
@@ -14,32 +56,34 @@ function UsernameText(destId, user_id){
 }
 
 
-function SnapshotTimestamp(destId, user_id, snapshot_id){
+async function SnapshotTimestamp(destId, user_id, snapshot_id){
 
 	let base_url = "http://localhost:5000";
 	let snapshots_url = base_url + "/users/" + user_id + "/snapshots";
     let destElement = document.getElementById(destId);
     let linesToAdd = "";
 
-  $.get(snapshots_url,function(snapshots){
+    await $.get(snapshots_url,function(snapshots){
       date_time = "";
+      let idx = 0;
       for(let i=0; i<snapshots.length; i++){
 		 let snapshot = snapshots[i];
          if(snapshot.snapshot_id == snapshot_id){
             date_time = snapshot.datetime;
+            idx = i + 1;
             break;
          }
       }
-      linesToAdd = ` Snapshot - ${date_time} `;
+      linesToAdd = ` Snapshot ${idx} - ${date_time} `;
       destElement.innerHTML = linesToAdd + destElement.innerHTML;
   });
 }
 
 
 
-function GetSnapshotResults(dataId, imgsId, user_id, snapshot_id){
+async function GetSnapshotResults(dataId, imgsId, user_id, snapshot_id){
 
-    let destElement = document.getElementById(destId);
+    let destElement = document.getElementById(dataId);
     let linesToAdd = "";
 
     // urls
@@ -60,8 +104,7 @@ function GetSnapshotResults(dataId, imgsId, user_id, snapshot_id){
     let color_img_path = "";
     let depth_img_path = "";
 
-    rotation = $.get(pose_url,function(result_fields){
-
+    await $.get(pose_url,function(result_fields){
     rotation = `{
     ${result_fields.rotation.w.toFixed(4)},
     ${result_fields.rotation.x.toFixed(4)},
@@ -78,7 +121,7 @@ function GetSnapshotResults(dataId, imgsId, user_id, snapshot_id){
   });
 
 
-    $.get(feelings_url,function(result_fields){
+    await $.get(feelings_url,function(result_fields){
 
     hunger = result_fields.hunger.toFixed(4);
     thirst = result_fields.thirst.toFixed(4);
@@ -86,17 +129,18 @@ function GetSnapshotResults(dataId, imgsId, user_id, snapshot_id){
     exhaustion = result_fields.exhaustion.toFixed(4);
   });
 
-    $.get(color_image_url,function(result_fields){
+    await $.get(color_image_url,function(result_fields){
         let idx = result_fields.data_path.indexOf("snapshots_imgs/");
         let img_path = result_fields.data_path.slice(idx);
         color_img_path = "/static/" + img_path;
     });
 
-    $.get(depth_image_url,function(result_fields){
+    await $.get(depth_image_url,function(result_fields){
                 let idx = result_fields.data_path.indexOf("snapshots_imgs/");
         let img_path = result_fields.data_path.slice(idx);
         depth_img_path = "/static/" + img_path;
     });
+
 
 RenderSnapshotResults(
          dataId,
@@ -106,9 +150,11 @@ RenderSnapshotResults(
          thirst,
          happiness,
          exhaustion);
-}
+
 
 RenderSnapshotImgs(imgsId, color_img_path, depth_img_path);
+}
+
 
 function RenderSnapshotResults(
          destId,
@@ -147,9 +193,10 @@ function RenderSnapshotResults(
 
 function RenderSnapshotImgs(destId, color_img_path, depth_img_path)
 {
+
     let destElement = document.getElementById(destId);
     let linesToAdd = `
-    <img class="w3-left" src=${color_img_path} style="width:49%; padding-top:1%;">
-    <img class="w3-right" src=${depth_img_path} style="width:49%; padding-top:1%;">`;
+    <img class="w3-left" src="${color_img_path}" style="width:49%; padding-top:1%;">
+    <img class="w3-right" src="${depth_img_path}" style="width:49%; padding-top:1%;">`;
 destElement.innerHTML += linesToAdd;
 }

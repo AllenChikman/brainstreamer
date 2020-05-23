@@ -19,7 +19,7 @@ class MqWrapper:
         try:
             self.mq = mq_drivers[scheme](host, port)
         except ConnectionError:
-            raise ConnectionError(f"Couldn't to MQ driver: {scheme}{mq_drivers}{host}{port}")
+            raise ConnectionError(f"Couldn't connect to MQ driver: {scheme}{mq_drivers}{host}{port}")
 
     def publish(self, topic, message):
         self.mq.publish(topic, message)

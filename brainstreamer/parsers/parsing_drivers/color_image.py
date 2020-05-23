@@ -3,6 +3,8 @@ from PIL import Image as PIL
 from brainstreamer.utils import FileSystemHandler as FSHandler
 
 
+
+
 def _prepare_img(width, height, path):
     size = width, height
     data = FSHandler.load(path, byte=True)
@@ -22,7 +24,9 @@ def parse_color_image(snapshot):
 
     image = _prepare_img(width, height, path)
 
-    img_dir = f"./brainstreamer/public/snapshots_imgs/{user_id}/{snapshot_id}"
+    base_img_dir = "./brainstreamer/gui/static/snapshots_imgs"
+
+    img_dir = f"{base_img_dir}/{user_id}/{snapshot_id}"
     FSHandler.safe_create_dir(img_dir)
     img_path = f"{img_dir}/color_img.png"
     image.save(img_path, 'PNG')

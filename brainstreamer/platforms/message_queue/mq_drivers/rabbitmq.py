@@ -9,9 +9,10 @@ class RabbitMq:
         self.port = port
 
         try:
-            pika.BlockingConnection(pika.ConnectionParameters(host=self.host, port=self.port))
+            pika.BlockingConnection(pika.ConnectionParameters(host=self.host, port=self.port,
+                                                              connection_attempts=7, retry_delay=30))
         except pika.exceptions.AMQPConnectionError:
-            raise ConnectionError
+            raise ConnectionError("rabbit mq failed to connect")
 
     def publish(self, topic, message):
         connection = pika.BlockingConnection(pika.ConnectionParameters(host=self.host, port=self.port))

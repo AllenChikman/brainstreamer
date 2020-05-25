@@ -5,5 +5,10 @@
   "pose_rotation_z": 0.789,
   "pose_translation_x": 0.123,
   "pose_translation_y": 0.456,
-  "pose_translation_z": 0.789
+  "pose_translation_z": 0.789,
+  "feelings_hunger": 1.0,
+  "feelings_thirst": -0.5,
+  "feelings_exhaustion": 0,
+  "feelings_happiness": 0.23434,
+  "datetime": 143251
 }

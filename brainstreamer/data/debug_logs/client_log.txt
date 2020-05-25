@@ -1,38 +1,38 @@
-05/25/2020 03:54:43 - brainstreamer.client.client - DEBUG - 127.0.0.1, 8000
-05/25/2020 03:54:43 - brainstreamer.client.client - DEBUG - running client
-05/25/2020 03:54:43 - brainstreamer.platforms.protocols.cogintion_pb_protocol.reader - DEBUG - Reader initialized
-05/25/2020 03:54:43 - brainstreamer.client.client - DEBUG - initialized reader
-05/25/2020 03:54:43 - brainstreamer.platforms.protocols.cogintion_pb_protocol.reader - DEBUG - getting user
-05/25/2020 03:54:43 - brainstreamer.platforms.protocols.cogintion_pb_protocol.reader - DEBUG - username: Dan Gittik
-05/25/2020 03:54:43 - brainstreamer.client.client - DEBUG - read user successfully
-05/25/2020 03:54:44 - brainstreamer.client.client - DEBUG - read snapshot successfully
-05/25/2020 03:54:44 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
-05/25/2020 03:54:45 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
-05/25/2020 03:54:45 - brainstreamer.client.client - DEBUG - read snapshot successfully
-05/25/2020 03:54:45 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
-05/25/2020 03:54:46 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
-05/25/2020 03:54:46 - brainstreamer.client.client - DEBUG - read snapshot successfully
-05/25/2020 03:54:46 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
-05/25/2020 03:54:47 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
-05/25/2020 03:54:47 - brainstreamer.client.client - DEBUG - read snapshot successfully
-05/25/2020 03:54:47 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
-05/25/2020 03:54:48 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
-05/25/2020 03:54:48 - brainstreamer.client.client - DEBUG - read snapshot successfully
-05/25/2020 03:54:48 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
-05/25/2020 03:54:49 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
-05/25/2020 03:54:49 - brainstreamer.client.client - DEBUG - read snapshot successfully
-05/25/2020 03:54:49 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
-05/25/2020 03:54:50 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
-05/25/2020 03:54:51 - brainstreamer.client.client - DEBUG - read snapshot successfully
-05/25/2020 03:54:51 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
-05/25/2020 03:54:51 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
-05/25/2020 03:54:52 - brainstreamer.client.client - DEBUG - read snapshot successfully
-05/25/2020 03:54:52 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
-05/25/2020 03:54:52 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
-05/25/2020 03:54:52 - brainstreamer.client.client - DEBUG - read snapshot successfully
-05/25/2020 03:54:52 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
-05/25/2020 03:54:53 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
-05/25/2020 03:54:53 - brainstreamer.client.client - DEBUG - read snapshot successfully
-05/25/2020 03:54:53 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
-05/25/2020 03:54:54 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
-05/25/2020 03:54:54 - brainstreamer.client.client - DEBUG - Brain Streaming succeeded. All the 10 snapshots were uploaded!
+05/26/2020 01:13:34 - brainstreamer.client.client - DEBUG - 127.0.0.1, 8000
+05/26/2020 01:13:34 - brainstreamer.client.client - DEBUG - running client
+05/26/2020 01:13:34 - brainstreamer.platforms.protocols.cogintion_pb_protocol.reader - DEBUG - Reader initialized
+05/26/2020 01:13:34 - brainstreamer.client.client - DEBUG - initialized reader
+05/26/2020 01:13:34 - brainstreamer.platforms.protocols.cogintion_pb_protocol.reader - DEBUG - getting user
+05/26/2020 01:13:34 - brainstreamer.platforms.protocols.cogintion_pb_protocol.reader - DEBUG - username: Dan Gittik
+05/26/2020 01:13:34 - brainstreamer.client.client - DEBUG - read user successfully
+05/26/2020 01:13:35 - brainstreamer.client.client - DEBUG - read snapshot successfully
+05/26/2020 01:13:35 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/26/2020 01:13:35 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
+05/26/2020 01:13:35 - brainstreamer.client.client - DEBUG - read snapshot successfully
+05/26/2020 01:13:35 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/26/2020 01:13:35 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
+05/26/2020 01:13:36 - brainstreamer.client.client - DEBUG - read snapshot successfully
+05/26/2020 01:13:36 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/26/2020 01:13:36 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
+05/26/2020 01:13:36 - brainstreamer.client.client - DEBUG - read snapshot successfully
+05/26/2020 01:13:36 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/26/2020 01:13:37 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
+05/26/2020 01:13:37 - brainstreamer.client.client - DEBUG - read snapshot successfully
+05/26/2020 01:13:37 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/26/2020 01:13:37 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
+05/26/2020 01:13:37 - brainstreamer.client.client - DEBUG - read snapshot successfully
+05/26/2020 01:13:37 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/26/2020 01:13:37 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
+05/26/2020 01:13:38 - brainstreamer.client.client - DEBUG - read snapshot successfully
+05/26/2020 01:13:38 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/26/2020 01:13:38 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
+05/26/2020 01:13:38 - brainstreamer.client.client - DEBUG - read snapshot successfully
+05/26/2020 01:13:38 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/26/2020 01:13:38 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
+05/26/2020 01:13:39 - brainstreamer.client.client - DEBUG - read snapshot successfully
+05/26/2020 01:13:39 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/26/2020 01:13:39 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
+05/26/2020 01:13:39 - brainstreamer.client.client - DEBUG - read snapshot successfully
+05/26/2020 01:13:39 - brainstreamer.client.client - DEBUG - posting snapshot to server on url: http://127.0.0.1:8000/snapshot 
+05/26/2020 01:13:40 - brainstreamer.client.client - DEBUG - client posted snapshot successfully
+05/26/2020 01:13:40 - brainstreamer.client.client - DEBUG - Brain Streaming succeeded. All the 10 snapshots were uploaded!

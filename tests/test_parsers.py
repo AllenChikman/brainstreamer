@@ -12,30 +12,36 @@ def json_snapshot(data_dir):
     return raw_snapshot
 
 
-# def test_parse_pose(json_snapshot):
-#     json_parsing_result = parse('pose', json_snapshot)
-#     parsing_result = json.loads(json_parsing_result)
-#     pose = parsing_result['topics']['pose']
-#
-#     assert pose['translation']['x'] == 0.123
-#     assert pose['translation']['y'] == 0.456
-#     assert pose['translation']['z'] == 0.789
-#
-#     assert pose['rotation']['x'] == -0.25
-#     assert pose['rotation']['y'] == -0.05
-#     assert pose['rotation']['z'] == -0.075
-#     assert pose['rotation']['w'] == -1
-#
-#
-# def test_parse_feelings(json_snapshot):
-#     json_parsing_result = parse('feelings', json_snapshot)
-#     parsing_result = json.loads(json_parsing_result)
-#     feelings = parsing_result['topics']['feelings']
-#
-#     assert feelings['hunger'] == 1.0
-#     assert feelings['thirst'] == -0.5
-#     assert feelings['exhaustion'] == 0
-#     assert feelings['happiness'] == 0.23434
+@pytest.fixture
+def flat_dict_snapshot(data_dir):
+    with open(data_dir / 'processed_snapshot_raw.json', 'r') as f:
+        snapshot = f.read()
+    return snapshot
+
+
+def test_parse_pose(flat_dict_snapshot):
+    json_parsing_result = parse('pose', flat_dict_snapshot)
+    parsing_result = json.loads(json_parsing_result)
+
+    print(parsing_result)
+    assert parsing_result['translation']['x'] == 0.123
+    assert parsing_result['translation']['y'] == 0.456
+    assert parsing_result['translation']['z'] == 0.789
+
+    assert parsing_result['rotation']['w'] == 0
+    assert parsing_result['rotation']['x'] == 0.123
+    assert parsing_result['rotation']['y'] == 0.456
+    assert parsing_result['rotation']['z'] == 0.789
+
+
+def test_parse_feelings(flat_dict_snapshot):
+    json_parsing_result = parse('feelings', flat_dict_snapshot)
+    parsing_result = json.loads(json_parsing_result)
+
+    assert parsing_result['hunger'] == 1.0
+    assert parsing_result['thirst'] == -0.5
+    assert parsing_result['exhaustion'] == 0
+    assert parsing_result['happiness'] == 0.23434
 
 
 def test_parse_pose_from_cli(data_dir, tmp_path):

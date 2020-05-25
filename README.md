@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/AllenChikman/brainstreamer.svg?branch=master)](https://travis-ci.org/AllenChikman/brain-computer-interface)
+[![Build Status](https://travis-ci.org/AllenChikman/brainstreamer.svg?branch=master)](https://travis-ci.org/AllenChikman/brainstreamer)
+
 [![codecov](https://codecov.io/gh/AllenChikman/brainstreamer/branch/master/graph/badge.svg)](https://codecov.io/gh/AllenChikman/brain-computer-interface)
 
 # brain-computer-interface

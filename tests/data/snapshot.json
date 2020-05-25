@@ -1,0 +1,36 @@
+{
+    "pose": {
+        "translation": {
+            "x": 0.4873843491077423,
+            "y": 0.007090016733855009,
+            "z": -1.1306129693984985
+        },
+        "rotation": {
+            "x": -0.10888676356214629,
+            "y": -0.26755994585035286,
+            "z": -0.021271118915446748,
+            "w": 0.9571326384559261
+        }
+    },
+    "color_image": {
+        "width": 1920,
+        "height": 1080,
+        "data": "/data/not/provided"
+    },
+    "depth_image": {
+        "width": 224,
+        "height": 172,
+        "data": "/data/not/provided"
+    },
+    "feelings": {
+        "hunger": 1.0,
+        "thirst": -0.5,
+        "exhaustion": 0.0,
+        "happiness": 0.23434
+    },
+    "metadata": {
+        "timestamp": 1575446887339,
+        "user_id": 42,
+        "snapshot_id": "01e0746e-7db0-4415-b93b-b076d36c12bb"
+    }
+}

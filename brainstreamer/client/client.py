@@ -40,12 +40,9 @@ def run(host, port, num_of_snaps_to_read, sample_path):
             snapshots_uploaded += 1
             if num_of_snaps_to_read and snapshots_uploaded == num_of_snaps_to_read:
                 break
-
     except KeyboardInterrupt:
         print(f'Brain streaming stopped. total number of {snapshots_uploaded} snapshots were uploaded')
         return
 
     print(f"Brain Streaming succeeded. All the {snapshots_uploaded} snapshots were uploaded!")
     logger.debug(f"Brain Streaming succeeded. All the {snapshots_uploaded} snapshots were uploaded!")
-    # if pbar:
-    #     pbar.close()

@@ -1,0 +1,9 @@
+{
+  "pose_rotation_w": 0,
+  "pose_rotation_x": 0.123,
+  "pose_rotation_y": 0.456,
+  "pose_rotation_z": 0.789,
+  "pose_translation_x": 0.123,
+  "pose_translation_y": 0.456,
+  "pose_translation_z": 0.789
+}

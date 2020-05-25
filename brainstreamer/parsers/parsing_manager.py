@@ -16,9 +16,9 @@ def get_available_parsers():
 def _prepare_publish_data(topic, parsed_data, snapshot):
     snapshot_dict = json.loads(snapshot)
 
-    datetime = snapshot_dict['datetime']
-    snapshot_id = snapshot_dict['snapshot_id']
-    user_id = snapshot_dict['user_id']
+    datetime = snapshot_dict["datetime"]
+    snapshot_id = snapshot_dict["snapshot_id"]
+    user_id = snapshot_dict["user_id"]
 
     metadata = dict(datetime=datetime, snapshot_id=snapshot_id, user_id=user_id)
 
@@ -40,7 +40,7 @@ def run_parser(parser_name, mq_url):
 
 
 def parse(parser_name, raw_data):
-    return available_parsers[parser_name](raw_data)
+    return json.dumps(available_parsers[parser_name](raw_data))
 
 
 def run_all_parsers(mq_url):

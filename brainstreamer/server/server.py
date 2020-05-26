@@ -49,6 +49,7 @@ def post_snapshot():
         mq.publish('user', json_user)
         mq.publish('snapshot', json_snapshot)
     except ConnectionError:
-        raise ConnectionError("Server failure: received a message from client, but couldn't connect to queue")
+        raise ConnectionError("Server failure: received a message from client,"
+                              " but couldn't connect to queue")
 
     return ""

@@ -1,3 +1,7 @@
+"""
+This module manages the read of the sample file.
+"""
+
 import gzip
 import struct
 import logging
@@ -5,7 +9,7 @@ from .data.cortex_pb2 import User, Snapshot
 
 UINT_SIZE = 4
 
-
+# This is a reader of protobuf type
 class ProtoReader:
     def __init__(self, path):
         self.logger = logging.getLogger(__name__)
@@ -30,6 +34,7 @@ class ProtoReader:
         return snapshot
 
 
+# This is a general Reader Wrapper
 class Reader:
     def __init__(self, path, file_reader=ProtoReader):
         self.path = path
@@ -48,12 +53,6 @@ class Reader:
 
     def close(self):
         self.file_reader.stream.close()
-
-    def __repr__(self):
-        return f'Reader(path={self.path})'
-
-    def __str__(self):
-        return f'Reader(path={self.path})'
 
     def __iter__(self):
         while snapshot := self.file_reader.get_snapshot():

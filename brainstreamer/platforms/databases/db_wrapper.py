@@ -7,6 +7,7 @@ logger = logging.getLogger(__name__)
 db_drivers = my_utils.load_drivers(drivers_path="./brainstreamer/platforms/databases/db_drivers", driver_type="class")
 
 
+# A Wrapper for the DB drivers. Every driver that follows this API will be ready for use.
 class DBWrapper:
     def __init__(self, url):
         url = furl(url)

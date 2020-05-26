@@ -1,6 +1,9 @@
-'''
-this module ...
-'''
+"""
+This module connected between the client-server protocol (Protobuf),
+and the server-MQ protocol (json).
+It take the data given from the server and processes and prepares it to the
+expected format to be sent to the MQ
+"""
 
 from .cognition_json_protocol import cognition_json_protocol as cjsp
 from brainstreamer.utils import my_util_functions as my_utils
@@ -65,4 +68,3 @@ def get_arranged_dicts(user, snapshot):
     snapshot_dict["depth_image_path"] = f'{image_dir_path}/depth_image.cjsp'
 
     return user_dict, snapshot_dict
-

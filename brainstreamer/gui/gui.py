@@ -1,3 +1,9 @@
+"""
+Exposing the results in a Gui.
+Backend: Flask and jinja templates
+FrondEnd: JS, Query, ajax, html, css
+"""
+
 from flask import Flask, render_template
 
 app = Flask(__name__)

@@ -1,5 +1,10 @@
+'''
+This module's role  is to manage the whole communication with the file system
+'''
+
 import logging
-import os, os.path
+import os
+import os.path
 import errno
 
 logger = logging.getLogger(__name__)
@@ -17,8 +22,7 @@ def _mkdir_p(path):
 
 
 def _safe_open(path, mode):
-    ''' Open "path" for writing, creating any parent directories as needed.
-    '''
+    # Open "path" for writing, creating any parent directories as needed.
 
     _mkdir_p(os.path.dirname(path))
     return open(path, mode)
@@ -37,6 +41,7 @@ class FileSystemHandler:
         with _safe_open(path, mode) as f:
             return f.read()
 
+    # create the father directories of the desired directory, if not exists
     @staticmethod
     def safe_create_dir(dir_path):
         _mkdir_p(dir_path)

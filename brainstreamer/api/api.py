@@ -1,3 +1,7 @@
+"""
+This module runs a server with REST API and responses with the saved data from the provided DB.
+"""
+
 from flask import Flask, jsonify, send_file
 from brainstreamer.platforms.databases import DBWrapper
 
@@ -5,17 +9,19 @@ serv = Flask(__name__)
 db = None
 
 
+# Run the server on the given address using the provided DB
 def run_api_server(host, port, database_url):
     global db
     db = DBWrapper(database_url)
     serv.run(host, int(port))
 
 
-
+# Wraps the response with json format and adds an header to it
 def _wrap_response(data):
     response = jsonify(data)
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
+
 
 @serv.route('/users', methods=['GET'])
 def get_users():

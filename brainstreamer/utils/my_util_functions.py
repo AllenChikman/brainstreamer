@@ -1,3 +1,7 @@
+"""
+Utility module that gathers all the miscellaneous general function
+"""
+
 import datetime as dt
 import uuid
 import logging
@@ -16,8 +20,9 @@ def init_logger(logger_file_name):
     logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 
-def epoch_to_date(time_passed, date_format="%d/%m/%Y, %H:%M:%S:%f", milisecs = False):
-    seconds = time_passed/1000 if milisecs else time_passed
+def epoch_to_date(time_passed, date_format="%d/%m/%Y, %H:%M:%S:%f", milisecs=False):
+    # converts provided time (in seconds/milliseconds) to a date in the given format
+    seconds = time_passed / 1000 if milisecs else time_passed
     datetime = dt.datetime.fromtimestamp(seconds).strftime(date_format)
     return datetime
 
@@ -27,6 +32,12 @@ def get_unique_id():
 
 
 def load_drivers(drivers_path, driver_type):
+    """
+    This function loads all drivers (python modules) that are located in the provided folder
+    :param drivers_path: string, a path for the directory of the drivers
+    :param driver_type: string from the set: {"function", "class"}
+    :return: dictionary of {"name: driver"}
+    """
     loaded_modules = set()
     drivers = {}
 

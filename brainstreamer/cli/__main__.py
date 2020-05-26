@@ -1,7 +1,10 @@
-import json
+"""
+We expose the API through command line interface using the 'click' library
+"""
 
 import click
 import requests
+import json
 
 
 @click.group()

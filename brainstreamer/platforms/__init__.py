@@ -1,3 +1,4 @@
-from .protocols.cogintion_pb_protocol.reader import Reader
+from brainstreamer.platforms.reader.reader import ReaderWrapper
 from .databases import DBWrapper
 from .message_queue import MqWrapper
+from .reader import ReaderWrapper

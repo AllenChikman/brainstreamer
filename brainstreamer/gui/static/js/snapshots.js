@@ -1,6 +1,5 @@
 
-function AddUserCard(destId, user_id){
-	let base_url = "http://localhost:5000";
+function AddUserCard(base_url, destId, user_id){
 	let users_url = base_url + "/users/" + user_id;
     let destElement = document.getElementById(destId);
     let linesToAdd = "";
@@ -19,8 +18,7 @@ function AddUserCard(destId, user_id){
 
 
 
-function AddSnapshotList(destId, user_id){
-	let base_url = "http://localhost:5000";
+function AddSnapshotList(base_url, destId, user_id){
 	let snapshots_url = base_url + "/users/" + user_id + "/snapshots";
     let destElement = document.getElementById(destId);
     let linesToAdd = "";

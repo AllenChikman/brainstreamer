@@ -3,8 +3,9 @@ Exposing the results in a Gui.
 Backend: Flask and jinja templates
 FrondEnd: JS, Query, ajax, html, css
 """
+import os
 
-from flask import Flask, render_template
+from flask import Flask, render_template, send_from_directory
 
 app = Flask(__name__)
 api_url = ""
@@ -34,3 +35,9 @@ def snapshots(user_id):
 @app.route('/users/<user_id>/snapshots/<snapshot_id>')
 def result_middleman(user_id, snapshot_id):
     return render_template('results.html', user_id=user_id, snapshot_id=snapshot_id, api_url=api_url)
+
+
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'),
+                               'favicon.ico', mimetype='image/vnd.microsoft.icon')

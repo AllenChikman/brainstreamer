@@ -1,5 +1,4 @@
-async function add_next_prev(user_id, snapshot_id){
-	let base_url = "http://localhost:5000";
+async function add_next_prev(base_url ,user_id, snapshot_id){
 	let snapshots_url = base_url + "/users/" + user_id + "/snapshots";
   await $.get(snapshots_url,function(snapshots){
       for(let i=0; i<snapshots.length; i++){
@@ -13,7 +12,7 @@ async function add_next_prev(user_id, snapshot_id){
 		    let nextButton = document.getElementById("next");
 		    if (!isFirst)
 		    {
-		        let prevSnapshot = snapshots[i-1];
+		        let prevSnapshot = snapshots[i-1]; destElement.innerHTML
 		        let prevUrl = "/users/" + user_id + "/snapshots/"+ prevSnapshot.snapshot_id;
 		        prevButton.href= prevUrl;
 		    }
@@ -40,9 +39,8 @@ async function add_next_prev(user_id, snapshot_id){
 
 
 
-function UsernameText(destId, user_id){
+function UsernameText(base_url, destId, user_id){
 
-	let base_url = "http://localhost:5000";
 	let users_url = base_url + "/users/" + user_id;
     let destElement = document.getElementById(destId);
     let linesToAdd = "";
@@ -56,9 +54,8 @@ function UsernameText(destId, user_id){
 }
 
 
-async function SnapshotTimestamp(destId, user_id, snapshot_id){
+async function SnapshotTimestamp(base_url ,destId, user_id, snapshot_id){
 
-	let base_url = "http://localhost:5000";
 	let snapshots_url = base_url + "/users/" + user_id + "/snapshots";
     let destElement = document.getElementById(destId);
     let linesToAdd = "";
@@ -81,13 +78,12 @@ async function SnapshotTimestamp(destId, user_id, snapshot_id){
 
 
 
-async function GetSnapshotResults(dataId, imgsId, user_id, snapshot_id){
+async function GetSnapshotResults(base_url, dataId, imgsId, user_id, snapshot_id){
 
     let destElement = document.getElementById(dataId);
     let linesToAdd = "";
 
     // urls
-    let base_url = "http://localhost:5000";
 	let result_fields_url = base_url + "/users" + "/" +user_id + "/snapshots" +"/" + snapshot_id;
     let pose_url = result_fields_url + "/pose"
     let feelings_url = result_fields_url + "/feelings"

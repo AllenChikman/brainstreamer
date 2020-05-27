@@ -98,10 +98,10 @@
 
 <script>
 $( document ).ready(function() {
- add_next_prev( {{user_id}} , "{{snapshot_id}}" );
- UsernameText("username_text", {{user_id}});
- SnapshotTimestamp("snapshot_data", {{user_id}}, "{{snapshot_id}}");
- GetSnapshotResults("snapshot_results", "snapshot_imgs" ,{{user_id}}, "{{snapshot_id}}");
+ add_next_prev("{{api_url}}", {{user_id}} , "{{snapshot_id}}" );
+ UsernameText("{{api_url}}", "username_text", {{user_id}});
+ SnapshotTimestamp("{{api_url}}", "snapshot_data", {{user_id}}, "{{snapshot_id}}");
+ GetSnapshotResults("{{api_url}}", "snapshot_results", "snapshot_imgs" ,{{user_id}}, "{{snapshot_id}}");
 });
 
 

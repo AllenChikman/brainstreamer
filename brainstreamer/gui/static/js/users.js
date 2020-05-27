@@ -1,6 +1,5 @@
 
-function AddUsers(destId){
-	let base_url = "http://localhost:5000";
+function AddUsers(base_url, destId){
 	let users_url = base_url + "/users";
     let destElement = document.getElementById(destId);
     let linesToAdd = "";
@@ -19,6 +18,11 @@ function AddUsers(destId){
                     <p>	Birthday: ${user.birthday}</p>
                     <button onclick="location.href='/users/${user.user_id}/snapshots'">Get Snapshots</button>
                 </li>`;
+
+               if(destElement == null)
+               {
+                    destElement.innerHTML = "";
+               }
              destElement.innerHTML += linesToAdd;
 			 	 
         });
@@ -26,6 +30,3 @@ function AddUsers(destId){
   });
 }
 
-$( document ).ready(function() {
-  AddUsers("rendered_user_list");
-});

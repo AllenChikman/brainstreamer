@@ -1,7 +1,7 @@
 import pytest
 import requests
 from brainstreamer.client import run as upload_sample
-from brainstreamer.platforms.protocols.cogintion_pb_protocol import cognition_pb_protocol as pb
+from brainstreamer.platforms.protocols import client_server_protocol
 
 
 def test_one_more_green_point_for_good_feeling():
@@ -10,12 +10,13 @@ def test_one_more_green_point_for_good_feeling():
 
 def test_send_snapshot(data_dir, requests_post_data):
     sample = data_dir / 'snapshot.gz'
-
+    print(sample)
+    # sample = "./brainstreamer/data/sample.mind.gz"
     num_of_snaps_to_read = 1
     upload_sample('127.0.0.1', 12345, num_of_snaps_to_read, sample)
 
     message = requests_post_data[0]
-    user, snapshot = pb.deserialize_message(message)
+    user, snapshot = client_server_protocol.deserialize_message(message)
 
     assert user.user_id == 42
     assert user.username == 'Dan Gittik'

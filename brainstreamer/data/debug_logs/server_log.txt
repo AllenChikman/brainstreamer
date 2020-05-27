@@ -1,74 +1,26 @@
-05/25/2020 22:12:37 - brainstreamer.server.server - DEBUG - running server
-05/25/2020 22:12:48 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/25/2020 22:12:49 - brainstreamer.server.server - DEBUG - saving images
-05/25/2020 22:12:49 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/6f47bb14-ff50-4da9-83e6-a0110f67f957
-05/25/2020 22:12:49 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/6f47bb14-ff50-4da9-83e6-a0110f67f957
-05/25/2020 22:12:49 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
-05/25/2020 22:12:49 - pika.adapters.utils.io_services_utils - ERROR - Socket failed to connect: <socket.socket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.27.0.9', 35240)>; error=111 (Connection refused)
-05/25/2020 22:12:49 - pika.adapters.utils.connection_workflow - ERROR - TCP Connection attempt failed: ConnectionRefusedError(111, 'Connection refused'); dest=(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('172.27.0.2', 5672))
-05/25/2020 22:12:49 - pika.adapters.utils.connection_workflow - ERROR - AMQPConnector - reporting failure: AMQPConnectorSocketConnectError: ConnectionRefusedError(111, 'Connection refused')
-05/25/2020 22:13:26 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/25/2020 22:13:26 - brainstreamer.server.server - DEBUG - saving images
-05/25/2020 22:13:26 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/1f432382-05bf-4e51-a2b0-ee8598689cdb
-05/25/2020 22:13:26 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/1f432382-05bf-4e51-a2b0-ee8598689cdb
-05/25/2020 22:13:26 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
-05/25/2020 22:13:27 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/25/2020 22:13:27 - brainstreamer.server.server - DEBUG - saving images
-05/25/2020 22:13:27 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/cc3b7afe-d44f-47d1-9994-407882a3f2a7
-05/25/2020 22:13:27 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/cc3b7afe-d44f-47d1-9994-407882a3f2a7
-05/25/2020 22:13:27 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
-05/25/2020 22:13:28 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/25/2020 22:13:28 - brainstreamer.server.server - DEBUG - saving images
-05/25/2020 22:13:28 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/3d63c2b8-261d-481a-bfd2-492cfde734c1
-05/25/2020 22:13:28 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/3d63c2b8-261d-481a-bfd2-492cfde734c1
-05/25/2020 22:13:28 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
-05/25/2020 22:13:35 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/25/2020 22:13:35 - brainstreamer.server.server - DEBUG - saving images
-05/25/2020 22:13:35 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/e684e9bc-e647-4003-aac7-48dd72dc9047
-05/25/2020 22:13:35 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/e684e9bc-e647-4003-aac7-48dd72dc9047
-05/25/2020 22:13:35 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
-05/25/2020 22:13:35 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/25/2020 22:13:35 - brainstreamer.server.server - DEBUG - saving images
-05/25/2020 22:13:35 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/c3e06453-dc48-4cb7-9dac-c7727aede97d
-05/25/2020 22:13:35 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/c3e06453-dc48-4cb7-9dac-c7727aede97d
-05/25/2020 22:13:35 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
-05/25/2020 22:13:36 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/25/2020 22:13:36 - brainstreamer.server.server - DEBUG - saving images
-05/25/2020 22:13:36 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/3e8a73ff-d78f-45da-bafa-d26cb4d7732a
-05/25/2020 22:13:36 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/3e8a73ff-d78f-45da-bafa-d26cb4d7732a
-05/25/2020 22:13:36 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
-05/25/2020 22:13:36 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/25/2020 22:13:36 - brainstreamer.server.server - DEBUG - saving images
-05/25/2020 22:13:36 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/03e9a0ad-ea88-45d7-be60-39184e04bc3d
-05/25/2020 22:13:36 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/03e9a0ad-ea88-45d7-be60-39184e04bc3d
-05/25/2020 22:13:36 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
-05/25/2020 22:13:37 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/25/2020 22:13:37 - brainstreamer.server.server - DEBUG - saving images
-05/25/2020 22:13:37 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/2b545862-050a-49f3-9876-bcaf2dfca988
-05/25/2020 22:13:37 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/2b545862-050a-49f3-9876-bcaf2dfca988
-05/25/2020 22:13:37 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
-05/25/2020 22:13:37 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/25/2020 22:13:37 - brainstreamer.server.server - DEBUG - saving images
-05/25/2020 22:13:37 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/1a150df2-8c81-432b-8c4b-96541a95760f
-05/25/2020 22:13:37 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/1a150df2-8c81-432b-8c4b-96541a95760f
-05/25/2020 22:13:37 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
-05/25/2020 22:13:38 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/25/2020 22:13:38 - brainstreamer.server.server - DEBUG - saving images
-05/25/2020 22:13:38 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/cac8a02d-cd27-40e6-b758-684d387442c7
-05/25/2020 22:13:38 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/cac8a02d-cd27-40e6-b758-684d387442c7
-05/25/2020 22:13:38 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
-05/25/2020 22:13:38 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/25/2020 22:13:38 - brainstreamer.server.server - DEBUG - saving images
-05/25/2020 22:13:38 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/82115cf5-6e80-4076-b7ca-3c50308bfe63
-05/25/2020 22:13:38 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/82115cf5-6e80-4076-b7ca-3c50308bfe63
-05/25/2020 22:13:38 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
-05/25/2020 22:13:39 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/25/2020 22:13:39 - brainstreamer.server.server - DEBUG - saving images
-05/25/2020 22:13:39 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/ca2231a1-4b57-4538-b578-e50ff6e80c99
-05/25/2020 22:13:39 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/ca2231a1-4b57-4538-b578-e50ff6e80c99
-05/25/2020 22:13:39 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
-05/25/2020 22:13:39 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
-05/25/2020 22:13:39 - brainstreamer.server.server - DEBUG - saving images
-05/25/2020 22:13:39 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/beca45d4-06b7-44c1-adb7-6b77d5065d37
-05/25/2020 22:13:39 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/beca45d4-06b7-44c1-adb7-6b77d5065d37
-05/25/2020 22:13:39 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
+05/27/2020 03:40:19 - brainstreamer.server.server - DEBUG - running server
+05/27/2020 03:40:28 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/27/2020 03:40:28 - brainstreamer.server.server - DEBUG - saving images
+05/27/2020 03:40:28 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/28933fec-53ef-4d44-95c1-c982169bfc27
+05/27/2020 03:40:28 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/28933fec-53ef-4d44-95c1-c982169bfc27
+05/27/2020 03:40:28 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://127.0.0.1:5672
+05/27/2020 03:40:28 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/27/2020 03:40:29 - brainstreamer.server.server - DEBUG - saving images
+05/27/2020 03:40:29 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/7356c99b-7ad9-4e8c-ac21-8451e37b8821
+05/27/2020 03:40:29 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/7356c99b-7ad9-4e8c-ac21-8451e37b8821
+05/27/2020 03:40:29 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://127.0.0.1:5672
+05/27/2020 03:40:29 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/27/2020 03:40:29 - brainstreamer.server.server - DEBUG - saving images
+05/27/2020 03:40:29 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/30157116-1429-4ac7-a435-d2ffc0aa6f43
+05/27/2020 03:40:29 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/30157116-1429-4ac7-a435-d2ffc0aa6f43
+05/27/2020 03:40:29 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://127.0.0.1:5672
+05/27/2020 03:40:30 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/27/2020 03:40:30 - brainstreamer.server.server - DEBUG - saving images
+05/27/2020 03:40:30 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/42612493-cbd6-4e18-8618-974f1ea6c063
+05/27/2020 03:40:30 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/42612493-cbd6-4e18-8618-974f1ea6c063
+05/27/2020 03:40:30 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://127.0.0.1:5672
+05/27/2020 03:40:30 - brainstreamer.server.server - DEBUG - server got snapshot from user: Dan Gittik
+05/27/2020 03:40:31 - brainstreamer.server.server - DEBUG - saving images
+05/27/2020 03:40:31 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/21d07265-38bd-433d-b89e-7805522bad4a
+05/27/2020 03:40:31 - brainstreamer.utils.file_system_handler - DEBUG - creating file: ./brainstreamer/data/protocol_shared_data/42/21d07265-38bd-433d-b89e-7805522bad4a
+05/27/2020 03:40:31 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://127.0.0.1:5672

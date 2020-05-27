@@ -75,8 +75,8 @@
 
 <script>
 $( document ).ready(function() {
-  AddUserCard("rendered_user_card",  {{user_id}});
-  AddSnapshotList("rendered_snapshot_list",  {{user_id}});
+  AddUserCard("{{api_url}}", "rendered_user_card",  {{user_id}});
+  AddSnapshotList("{{api_url}}", "rendered_snapshot_list",  {{user_id}});
 });
 
 </script>

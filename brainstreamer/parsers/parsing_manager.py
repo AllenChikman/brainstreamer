@@ -18,13 +18,14 @@ def get_available_parsers():
 # process the parsed data and wrap it with metadata for the saver
 def _prepare_publish_data(topic, parsed_data, snapshot):
     snapshot_dict = json.loads(snapshot)
+    data_dict = json.loads(parsed_data)
 
     datetime = snapshot_dict["datetime"]
     snapshot_id = snapshot_dict["snapshot_id"]
     user_id = snapshot_dict["user_id"]
 
     metadata = dict(datetime=datetime, snapshot_id=snapshot_id, user_id=user_id)
-    prepared_data = dict(**metadata, results={topic: parsed_data})
+    prepared_data = dict(**metadata, results={topic: data_dict})
 
     return json.dumps(prepared_data)
 

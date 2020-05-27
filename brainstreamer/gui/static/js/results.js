@@ -12,7 +12,7 @@ async function add_next_prev(base_url ,user_id, snapshot_id){
 		    let nextButton = document.getElementById("next");
 		    if (!isFirst)
 		    {
-		        let prevSnapshot = snapshots[i-1]; destElement.innerHTML
+		        let prevSnapshot = snapshots[i-1];
 		        let prevUrl = "/users/" + user_id + "/snapshots/"+ prevSnapshot.snapshot_id;
 		        prevButton.href= prevUrl;
 		    }

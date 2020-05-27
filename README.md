@@ -2,7 +2,7 @@
 [![codecov](https://codecov.io/gh/AllenChikman/brainstreamer/branch/master/graph/badge.svg)](https://codecov.io/gh/AllenChikman/brainstreamer)
 
 # brainstreamer
-Imaginary hardware , that can read minds, and upload snapshots of cognitions.
+Imaginary hardware , that can read minds, and upload snapshots of cognitions. <br>
 This is the final project in awesome course: Advanced-System-design of [Dan Gittik](https://github.com/dan-gittik).
 
 

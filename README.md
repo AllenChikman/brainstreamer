@@ -3,7 +3,7 @@
 
 # brainstreamer
 Imaginary hardware , that can read minds, and upload snapshots of cognitions. <br>
-This is the final project in awesome course: Advanced-System-design of [Dan Gittik](https://github.com/dan-gittik).
+This is the final project in the awesome course: _Advanced-System-design_ of [Dan Gittik](https://github.com/dan-gittik).
 
 
 ## Prerequisites

@@ -30,3 +30,8 @@ Imaginary hardware , that can read minds, and upload snapshots of cognitions
     $ pytest tests/
     ...
     ```
+    
+    
+## Project's Pipeline
+![brainstreamer_pipeline](https://user-images.githubusercontent.com/37861691/82965333-79945680-9fd0-11ea-8e41-bbfb7f2e891b.png)
+

@@ -3,17 +3,15 @@
 
 # brainstreamer
 Imaginary hardware , that can read minds, and upload snapshots of cognitions.
-This is the final project in awesome course: Advanced-System_design of [Dan Gittik](https://github.com/dan-gittik).
+This is the final project in awesome course: Advanced-System-design of [Dan Gittik](https://github.com/dan-gittik).
 
 
 ## Prerequisites
 
-```
+
 [Python 3.8](https://www.python.org/downloads/release/python-382/).
 [Docker](https://docs.docker.com/engine/install/ubuntu/).
 [docker-compose](https://docs.docker.com/compose/install/).
-
-```
 
 ## Installation
 

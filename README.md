@@ -8,12 +8,9 @@ This is the final project in awesome course: Advanced-System-design of [Dan Gitt
 
 ## Prerequisites
 
-
-[Python 3.8](https://www.python.org/downloads/release/python-382/).
-
-[Docker](https://docs.docker.com/engine/install/ubuntu/).
-
-[docker-compose](https://docs.docker.com/compose/install/).
+- [Python 3.8](https://www.python.org/downloads/release/python-382/)
+- [Docker](https://docs.docker.com/engine/install/ubuntu/)
+- [docker-compose](https://docs.docker.com/compose/install/)
 
 ## Installation
 

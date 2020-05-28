@@ -62,7 +62,10 @@ After that, upload some snapshots from the [client](/brainstreamer/client/README
 Brain Streaming succeeded. All the 20 snapshots were uploaded!
 [brainstreamer] $ 
 ```    
-    
+
+#### Note:
+If not necessary, try to use a small valuse for the  ```num_of_snaps_to_read``` to read parameter to ensure a smooth and fast flow.
+
 ## Project's Pipeline
 ![brainstreamer_pipeline](https://user-images.githubusercontent.com/37861691/82965333-79945680-9fd0-11ea-8e41-bbfb7f2e891b.png)
 

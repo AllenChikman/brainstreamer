@@ -4,10 +4,6 @@ from brainstreamer.client import upload_sample
 from brainstreamer.platforms.protocols import client_server_protocol
 
 
-def test_one_more_green_point_for_good_feeling():
-    assert True
-
-
 def test_send_snapshot(data_dir, requests_post_data):
     sample = data_dir / 'snapshot.gz'
     print(sample)

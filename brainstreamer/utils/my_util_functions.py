@@ -3,16 +3,22 @@ Utility module that gathers all the miscellaneous general function
 """
 
 import datetime as dt
+import os
 import uuid
 import logging
 import sys
 import importlib
 from pathlib import Path
+from .file_system_handler import FileSystemHandler
 
 
 def init_logger(logger_file_name):
     log_format = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-    logging.basicConfig(filename=f'./brainstreamer/data/debug_logs/{logger_file_name}_log.txt', level=logging.DEBUG,
+    log_file_path = f'./brainstreamer/data/debug_logs/{logger_file_name}_log.txt'
+    FileSystemHandler.safe_create_dir("./brainstreamer/data/debug_logs")
+    if os.path.isfile(log_file_path):
+        FileSystemHandler.save(log_file_path, "")
+    logging.basicConfig(filename=log_file_path, level=logging.DEBUG,
                         format=log_format,
                         datefmt='%m/%d/%Y %H:%M:%S', filemode='w')
     logging.getLogger("pika").setLevel(logging.WARNING)

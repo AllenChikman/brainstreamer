@@ -82,5 +82,5 @@ Each sub-package represents a micoservice of the project, each containing its ow
 
 ## Support
 
-For contact please feel free to contact me:
+For contact please feel free to reach me on:
 * Email - allenchikman@gmail.com

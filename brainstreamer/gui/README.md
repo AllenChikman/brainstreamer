@@ -3,8 +3,10 @@
 
 ### Implemenation details:
 
-**Backend**: Flask and jinja templates
+
+**Backend**: Flask and jinja templates <br>
 **FrondEnd**: JS, Query, ajax, html, css
+
 
 ### Usage:
 

@@ -3,7 +3,7 @@
 
 The API is available as brainstreamer.api and expose the following API:
 
-```
+```pycon
 >>> from cortex.api import run_api_server
 >>> run_api_server(
 ... host = '127.0.0.1' ,

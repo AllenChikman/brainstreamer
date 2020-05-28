@@ -62,3 +62,21 @@ All the 1024 snapshots were sent successfully!
 ## Project's Pipeline
 ![brainstreamer_pipeline](https://user-images.githubusercontent.com/37861691/82965333-79945680-9fd0-11ea-8e41-bbfb7f2e891b.png)
 
+## Usage
+
+The project contains one main package, `brainstreamer`, containing several sub-packages.
+Each sub-package represents a micoservice of the project, each containing its own README file, for examples and further read:
+
+* [`client`](/brainstreamer/client/README.md) - uploads snapshots to the server.
+* [`server`](/brainstreamer/server/README.md) - receives the snapshots from the client, processes and publishes them to the [`MQ`](/brainstreamer/platforms/README.md).
+* [`parsers`](/brainstreamer/parsers/README.md) - consumes and parses the snapshots published by the server,and then publishing it back to the saver.
+* [`saver`](/brainstreamer/saver/README.md) - consumes and saves the parsed data to the database.
+* [`api`](/brainstreamer/server/README.md) - a REST API exposed to consume the data.
+* [`cli`](/brainstreamer/cli/README.md) - a CLI that consumes the API.
+* [`gui`](/brainstreamer/gui/README.md) - visualization of the data.
+* [`platforms`](/brainstreamer/platforms/README.md) - several platforms that provide services to all the components
+
+## Support
+
+For contact please feel free to contact me:
+* Email - allenchikman@gmail.com

@@ -74,9 +74,9 @@ Each sub-package represents a micoservice of the project, each containing its ow
 * [`api`](/brainstreamer/server/README.md) - a REST API exposed to consume the data.
 * [`cli`](/brainstreamer/cli/README.md) - a CLI that consumes the API.
 * [`gui`](/brainstreamer/gui/README.md) - visualization of the data.
-* [`platforms`](/brainstreamer/platforms/README.md) - several platforms that provides services to all the components
+* [`platforms`](/brainstreamer/platforms/README.md) - several platforms that provide services to all the components
 
 ## Support
 
 For contact please feel free to contact me:
-* Email: - allenchikman@gmail.com
+* Email - allenchikman@gmail.com

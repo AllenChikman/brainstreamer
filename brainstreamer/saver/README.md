@@ -3,7 +3,7 @@
 
 The saver is available as brainstreamer.saver and expose the following API:
 
-```
+```pycon
 >>> from cortex.saver import Saver
 >>> saver = Saver(database_url)
 >>> data = …

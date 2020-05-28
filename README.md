@@ -71,8 +71,9 @@ If not necessary, try to use small values for the  ```--num-snaps``` parameter t
 
 ## Usage
 
-The project contains one main package, `brainstreamer`, containing several sub-packages.
-Each sub-package represents a micoservice of the project, each containing its own README file, for examples and further read:
+The project contains one main package, `brainstreamer`, which contains several sub-packages.<br>
+Each sub-package represents a micoservice of the project, which contains its own README file.<br>
+For examples and further read:
 
 * [`client`](/brainstreamer/client/README.md) - uploads snapshots to the server.
 * [`server`](/brainstreamer/server/README.md) - receives the snapshots from the client, processes and publishes them to the [`MQ`](/brainstreamer/platforms/message_queue).

@@ -5,7 +5,7 @@ import logging
 from tqdm import tqdm
 
 
-def run(host, port, num_of_snaps_to_read, sample_path):
+def upload_sample(host, port, num_of_snaps_to_read, sample_path):
     logger = logging.getLogger(__name__)
     logger.debug(f"{host}, {port}")
     logger.debug("running client")

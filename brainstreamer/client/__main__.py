@@ -15,7 +15,7 @@ def cli():
 @click.argument('path')
 def upload_sample(host, port , num_snaps, path):
     try:
-        client.run(host, int(port), int(num_snaps) , path)
+        client.upload_sample(host, int(port), int(num_snaps) , path)
     except Exception as error:
         print(f'ERROR: {error}')
     pass

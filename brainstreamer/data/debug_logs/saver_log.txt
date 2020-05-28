@@ -1,5 +1,0 @@
-05/27/2020 03:40:21 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://127.0.0.1:5672
-05/27/2020 03:40:21 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://127.0.0.1:5672
-05/27/2020 03:40:21 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://127.0.0.1:5672
-05/27/2020 03:40:21 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://127.0.0.1:5672
-05/27/2020 03:40:21 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://127.0.0.1:5672

@@ -51,11 +51,15 @@ Everything is ready!
 
 Please note that the first time set up may take some time.
 
+Copy the desired binary sample you woul'd like to read from to the ```/data``` folder.
+(if you'd like to use the full sample. you can download it from [here](https://storage.googleapis.com/advanced-system-design/sample.mind.gz).
+For your convenience, a mini-sample is already available at the ```/data``` folder .
+
 After that, upload some snapshots from the [client](/brainstreamer/client/README.md):
 ```sh
-[brainstreamer] $ python -m brainstreamer.client upload-sample sample.mind.gz
+[brainstreamer] $ python -m brainstreamer.client upload-sample --num-snaps 20 /data/sample.mind.gz
 ...
-All the 1024 snapshots were sent successfully!
+Brain Streaming succeeded. All the 20 snapshots were uploaded!
 [brainstreamer] $ 
 ```    
     
@@ -68,7 +72,7 @@ The project contains one main package, `brainstreamer`, containing several sub-p
 Each sub-package represents a micoservice of the project, each containing its own README file, for examples and further read:
 
 * [`client`](/brainstreamer/client/README.md) - uploads snapshots to the server.
-* [`server`](/brainstreamer/server/README.md) - receives the snapshots from the client, processes and publishes them to the [`MQ`](/brainstreamer/platforms/README.md).
+* [`server`](/brainstreamer/server/README.md) - receives the snapshots from the client, processes and publishes them to the [`MQ`](/brainstreamer/platforms/message_queue).
 * [`parsers`](/brainstreamer/parsers/README.md) - consumes and parses the snapshots published by the server,and then publishing it back to the saver.
 * [`saver`](/brainstreamer/saver/README.md) - consumes and saves the parsed data to the database.
 * [`api`](/brainstreamer/server/README.md) - a REST API exposed to consume the data.

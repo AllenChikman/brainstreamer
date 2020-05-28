@@ -7,8 +7,7 @@ The server is available as cortex.server and exposes the following API:
 >>> from cortex.server import run_server
 >>> def print_message (message):
 ... print (message)
->>> run_server(host= '127.0.0.1' , port= 8000 , publish=print_message)
-… # listen on host : port and pass received messages to publish
+>>> run_server(host= '127.0.0.1' , port= 8000 , mq_url='rabbitmq://127.0.0.1:5672/')
 ```
 
 And in the following CLI:

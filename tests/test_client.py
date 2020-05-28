@@ -1,6 +1,6 @@
 import pytest
 import requests
-from brainstreamer.client import run as upload_sample
+from brainstreamer.client import upload_sample
 from brainstreamer.platforms.protocols import client_server_protocol
 
 

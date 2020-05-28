@@ -1,1 +1,1 @@
-from .client import run
+from .client import upload_sample

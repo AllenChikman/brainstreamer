@@ -87,4 +87,4 @@ For examples and further read:
 ## Support
 
 For contact please feel free to reach me on:
-* Email - allenchikman@gmail.com
+* Email - allenchikman@gmail.com 

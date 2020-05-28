@@ -1,1 +1,12 @@
-05/27/2020 03:49:08 - __main__ - DEBUG - parsing
+05/28/2020 00:11:51 - __main__ - DEBUG - parsing
+05/28/2020 00:11:51 - brainstreamer.platforms.message_queue.mq_wrapper - DEBUG - Init of Mq: rabbitmq://mq:5672
+05/28/2020 00:11:51 - pika.adapters.utils.selector_ioloop_adapter - ERROR - Address resolution failed: gaierror(-5, 'No address associated with hostname')
+05/28/2020 00:11:51 - pika.adapters.utils.connection_workflow - ERROR - getaddrinfo failed: gaierror(-5, 'No address associated with hostname').
+05/28/2020 00:12:21 - pika.adapters.utils.selector_ioloop_adapter - ERROR - Address resolution failed: gaierror(-5, 'No address associated with hostname')
+05/28/2020 00:12:21 - pika.adapters.utils.connection_workflow - ERROR - getaddrinfo failed: gaierror(-5, 'No address associated with hostname').
+05/28/2020 00:12:51 - pika.adapters.utils.selector_ioloop_adapter - ERROR - Address resolution failed: gaierror(-5, 'No address associated with hostname')
+05/28/2020 00:12:51 - pika.adapters.utils.connection_workflow - ERROR - getaddrinfo failed: gaierror(-5, 'No address associated with hostname').
+05/28/2020 00:13:21 - pika.adapters.utils.selector_ioloop_adapter - ERROR - Address resolution failed: gaierror(-5, 'No address associated with hostname')
+05/28/2020 00:13:21 - pika.adapters.utils.connection_workflow - ERROR - getaddrinfo failed: gaierror(-5, 'No address associated with hostname').
+05/28/2020 00:13:51 - pika.adapters.utils.selector_ioloop_adapter - ERROR - Address resolution failed: gaierror(-5, 'No address associated with hostname')
+05/28/2020 00:13:51 - pika.adapters.utils.connection_workflow - ERROR - getaddrinfo failed: gaierror(-5, 'No address associated with hostname').

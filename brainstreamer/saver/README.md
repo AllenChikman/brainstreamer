@@ -15,7 +15,7 @@ message queue, and saves it to the database.
 
 It is also provides the following CLI:
 
-```
+```pycon
 $ python -m cortex.saver save \
 -d/--database 'postgresql://127.0.0.1:5432' \
 'pose' \
@@ -28,7 +28,7 @@ queue, and saves it to a database.
 The CLI also supports running the saver as a service, which works with a message queue
 indefinitely.
 
-```
+```pycon
 $ python -m cortex.saver run-saver \
 'postgresql://127.0.0.1:5432' \
 'rabbitmq://127.0.0.1:5672/'

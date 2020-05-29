@@ -4,7 +4,7 @@
 The saver is available as brainstreamer.saver and expose the following API:
 
 ```pycon
->>> from cortex.saver import Saver
+>>> from brainstreamer.saver import Saver
 >>> saver = Saver(database_url)
 >>> data = …
 >>> saver.save( 'pose' , data)
@@ -16,7 +16,7 @@ message queue, and saves it to the database.
 It is also provides the following CLI:
 
 ```pycon
-$ python -m cortex.saver save \
+$ python -m brainstreamer.saver save \
 -d/--database 'postgresql://127.0.0.1:5432' \
 'pose' \
 'pose.result'
@@ -29,7 +29,7 @@ The CLI also supports running the saver as a service, which works with a message
 indefinitely.
 
 ```pycon
-$ python -m cortex.saver run-saver \
+$ python -m brainstreamer.saver run-saver \
 'postgresql://127.0.0.1:5432' \
 'rabbitmq://127.0.0.1:5672/'
 ```

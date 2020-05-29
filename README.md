@@ -51,6 +51,8 @@ necessary services:
 
 Please note that the first time set up may take some time.
 
+### Note: please make sure your user has docker permissions, otherwise you'll have to use the above commands with ```sudo```
+
 Copy the desired binary sample you woul'd like to read from to the ```/data``` folder.
 (if you'd like to use the full sample, you can download it from [here](https://storage.googleapis.com/advanced-system-design/sample.mind.gz)). <br>
 For your convenience, a mini-sample is already available at the ```/data``` folder .

@@ -4,7 +4,7 @@
 The API is available as brainstreamer.api and expose the following API:
 
 ```pycon
->>> from cortex.api import run_api_server
+>>> from brainstreamer.api import run_api_server
 >>> run_api_server(
 ... host = '127.0.0.1' ,
 ... port = 5000 ,
@@ -16,7 +16,7 @@ The API is available as brainstreamer.api and expose the following API:
 And the following CLI:
 
 ```
-python -m cortex.api run-server \
+python -m brainstreamer.api run-server \
 -h/--host '127.0.0.1' \
 -p/--port 5000 \
 -d/--database 'postgresql://127.0.0.1:5432'

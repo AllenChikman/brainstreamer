@@ -6,7 +6,7 @@
 The parsers are available as brainstreamer.parsers and exposes the following API:
 
 ```pycon
->>> from cortex.parsers import run_parser
+>>> from brainstreamer.parsers import run_parser
 >>> data = …
 >>> result = run_parser( 'pose' , data)
 ```
@@ -15,7 +15,7 @@ Which accepts a parser name and some raw data, as consumed from the message queu
 
 It also provides the following CLI:
 
-``` python -m cortex.parsers parse 'pose' 'snapshot.raw' > 'pose.result' ```
+``` python -m brainstreamer.parsers parse 'pose' 'snapshot.raw' > 'pose.result' ```
 
 Which accepts a parser name and a path to some raw data, as consumed from the message
 queue, and prints the result, as published to the message queue (optionally redirecting it
@@ -23,7 +23,7 @@ to a file).
 
 The CLI should also support running the parsers as a service, which works with a message queue indefinitely.
 
-```$ python -m cortex.parsers run-parser 'pose' 'rabbitmq://127.0.0.1:5672/' ```
+```$ python -m brainstreamer.parsers run-parser 'pose' 'rabbitmq://127.0.0.1:5672/' ```
 
 ### Default available parsers
 

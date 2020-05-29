@@ -67,9 +67,9 @@ Brain Streaming succeeded. All the 1 snapshots were uploaded!
 For usage of the a full sample (after it is copied to the ```/data``` folder:
 
 ```sh
-[brainstreamer] $ python -m brainstreamer.client upload-sample --num-snaps 20 "./brainstreamer/data/sample.mind.gz"
+[brainstreamer] $ python -m brainstreamer.client upload-sample --num-snaps 10 "./brainstreamer/data/sample.mind.gz"
 ...
-Brain Streaming succeeded. All the 20 snapshots were uploaded!
+Brain Streaming succeeded. All the 10 snapshots were uploaded!
 [brainstreamer] $ 
 ```    
 

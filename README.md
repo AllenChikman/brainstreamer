@@ -89,7 +89,9 @@ All dockers are stopped.
 
 #### In case something goes wrong:
 In rare cases some bugs may occur (due to things like enviorment or synchronization related stuff). <br>
-All you have to do is just restart the pipeline:
+A quick fix will be to delete the database contents and just trying to upload new snapshots.
+
+Also, you can always try to restart the pipeline:
 
 ```sh
 [brainstreamer] $ ./scripts/stop-pipeline.sh

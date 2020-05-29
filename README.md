@@ -88,7 +88,7 @@ All dockers are stopped.
 ```
 
 #### In case something goes wrong:
-In rare cases some bugs may occur (due to things enviorment or synchronization related stuff). <br>
+In rare cases some bugs may occur (due to things like enviorment or synchronization related stuff). <br>
 All you have to do is just restart the pipeline:
 
 ```sh

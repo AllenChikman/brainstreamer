@@ -55,7 +55,17 @@ Copy the desired binary sample you woul'd like to read from to the ```/data``` f
 (if you'd like to use the full sample, you can download it from [here](https://storage.googleapis.com/advanced-system-design/sample.mind.gz)). <br>
 For your convenience, a mini-sample is already available at the ```/data``` folder .
 
-After that, upload some snapshots from the [client](/brainstreamer/client/README.md):
+After that, upload some snapshots from the [client](/brainstreamer/client/README.md). <br>
+For usage of the mini-sample provided:
+
+```sh
+[brainstreamer] $ python -m brainstreamer.client upload-sample ./brainstreamer/data/mini_sample.gz"
+...
+Brain Streaming succeeded. All the 1 snapshots were uploaded!
+[brainstreamer] $ 
+```    
+For usage of the a full sample (after it is copied to the ```/data``` folder:
+
 ```sh
 [brainstreamer] $ python -m brainstreamer.client upload-sample --num-snaps 20 "./brainstreamer/data/sample.mind.gz"
 ...

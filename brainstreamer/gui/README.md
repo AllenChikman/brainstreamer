@@ -15,7 +15,7 @@ The GUI consumes the API and reflects it.
 Usage as a python module:
 
 ``` pycon
->>> from cortex.gui import run_server
+>>> from brainstreamer.gui import run_server
 >>> run_server(
 ... host = '127.0.0.1 ',
 ... port = 8080 ,
@@ -27,7 +27,7 @@ Usage as a python module:
 Usage from CLI:
 
 ```pycon
-$ python -m cortex.gui run-server \
+$ python -m brainstreamer.gui run-server \
 -h/--host '127.0.0.1' \
 -p/--port 8080 \
 -H/--api-host '127.0.0.1' \

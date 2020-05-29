@@ -57,7 +57,7 @@ For your convenience, a mini-sample is already available at the ```/data``` fold
 
 After that, upload some snapshots from the [client](/brainstreamer/client/README.md):
 ```sh
-[brainstreamer] $ python -m brainstreamer.client upload-sample --num-snaps 20 /data/sample.mind.gz
+[brainstreamer] $ python -m brainstreamer.client upload-sample --num-snaps 20 "./brainstreamer/data/sample.mind.gz"
 ...
 Brain Streaming succeeded. All the 20 snapshots were uploaded!
 [brainstreamer] $ 
@@ -65,6 +65,8 @@ Brain Streaming succeeded. All the 20 snapshots were uploaded!
 
 #### Note:
 If not necessary, try to use small values for the  ```--num-snaps``` parameter to ensure a smooth and fast flow.
+
+Now you can use the [`cli`](/brainstreamer/cli/README.md) to consume the the data, or use the [`gui`](/brainstreamer/gui/README.md) to see an nice visualization of the data, in a [website](http://localhost:8080)
 
 ## Project's Pipeline
 ![brainstreamer_pipeline](https://user-images.githubusercontent.com/37861691/82965333-79945680-9fd0-11ea-8e41-bbfb7f2e891b.png)

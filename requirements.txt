@@ -9,7 +9,7 @@ coverage==4.5.4
 docutils==0.15.2
 flake8==3.7.9
 Flask==1.1.1
-flask-cors==3.0.8
+flask-cors==3.0.9
 furl==2.1.0
 google==2.0.3
 idna==2.8
